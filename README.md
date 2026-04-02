@@ -1,6 +1,6 @@
 # 🌿 Yunus: The Urban Sustainability Masterplan
 
-![Yunus Masterplan Banner](C:\Users\tanar\.gemini\antigravity\brain\9b423337-7b83-4f12-9e5b-713f563589db\yunus_masterplan_banner_1775149637096.png)
+![Yunus Masterplan Banner](assets/yunus_banner.png)
 
 <div align="center">
 
