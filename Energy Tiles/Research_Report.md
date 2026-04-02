@@ -1,4 +1,6 @@
-# Energy Tiles Research Report: Kinetic Energy Harvesting in Taiwan
+# Kinetic Energy Tiles: Research Report
+
+[<img src="https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logo=home&logoColor=white">](../README.md)
 
 ## 1. Executive Summary
 This report explores the feasibility of implementing energy-generating tiles (kinetic floor tiles) within Taiwan's high-traffic transportation hubs, specifically the Taipei MRT and major bus stations. While the technology is currently too expensive to serve as a primary power source for massive infrastructures, it offers significant value as a **Smart City** initiative for localized power and public engagement.
