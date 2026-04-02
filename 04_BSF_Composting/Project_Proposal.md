@@ -1,45 +1,49 @@
-# Project 04: Black Soldier Fly (BSF) Larvae Composting
+# 第六屆台灣尤努斯創新獎 - 計畫書 (Project 04: Black Soldier Fly Composting)
 
 [<img src="https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logo=home&logoColor=white">](../README.md)
 
-## 1. Deep Research: The BSF Revolution (黑水虻)
-Black Soldier Flies (Hermetia illucens) are the most efficient decomposers in nature. Unlike houseflies, they do not carry diseases or bite. Their larvae eat organic waste at an incredible rate, reducing the volume of food waste by up to **80%** in as little as 10–14 days.
-
-### Taiwan-Specific Research:
-Taiwan is a perfect candidate for large-scale BSF implementation due to:
-- **Temperature**: Tropical and subtropical climate (ideal for fly breeding (25-30°C)).
-- **Food Culture**: High concentrations of food waste from 300+ Night Markets in Taiwan.
-- **Agricultural Demand**: Taiwan has a massive aquaculture and poultry industry that desperately needs sustainable, low-cost protein feed.
-
-### The Biological "Gold Mine":
-1.  **Larvae (The Feed)**: High in protein (40%) and fat (30%). Can replace fishmeal in aquaculture.
-2.  **Frass (The Poop)**: High-quality organic fertilizer for urban gardens.
+| 團隊名稱 | Yunus Vision Team |
+| :--- | :--- |
+| **計畫名稱** | **"黑水虻生物轉化"：夜市廚餘高值化與蛋白質循環計畫** |
+| **團隊成員** | **Steven Tanardi** |
+| **計畫類別** | 學生組 / 社會組 |
 
 ---
 
-## 2. Project Proposal: The "Taiwan BSF Hub"
+## 一、請說明團隊欲解決的社會問題 (Social Problem Analysis)
+台灣夜市文化蓬勃，但每日產生大量的固態廚餘。這些廚餘含鹽、含油量高，難以直接作一般堆肥，且焚化處理會導致高昂的二噁英防治成本。
+- **核心問題**：夜市廚餘的處理效率低下且成本高。
+- **目標族群**：台北士林、饒河、以及宜蘭羅東等主要夜市自治會、農業局、畜牧業者。
 
-### Mission:
-To convert Taiwan's night market food waste into high-value animal protein through decentralized BSF pods.
+## 二、公司目標、願景與產品/服務內容 (Mission & Solution)
+### 願景
+利用生物天性，將「垃圾」在 24 小時內重新放回食物鏈。
+### 產品與服務內容
+1.  **黑水虻 (BSF) 幼蟲生產**：24/7 的高效處理模組，將廚餘轉化為高蛋白幼蟲 (40% 粗蛋白)。
+2.  **幼蟲全成分飼料**：製作成魚粉替代品，供應給台灣的水產與家禽農場。
+3.  **黑水虻虻糞 (Frass) 肥料**：蟲糞作為高效、無味的有機肥料產品，用於城市農業。
 
-### Core Architecture:
-- **Phase 1: The Bio-Modular Pod**: A shipping-container-sized pod with automated climate control, installed near major composting centers like **Bali** or **Neihu**.
-- **Phase 2: Night Market Pilot**: Direct-collection from Shilin or Raohe Night Markets. Pre-processing (shredding and dewatering) of organic waste at the pod.
-- **Phase 3: The Bio-Product Line**: Selling the dried larvae as "Yunus Premium Fish Feed" and the frass as "Urban Soil Gold".
+## 三、商業模式 (Business Model)
+- **廚餘處理費 (Tipping Fee)**：向夜市與大型餐廳收取低於傳統清運價格的垃圾處理費。
+- **飼料銷售**：將乾燥幼蟲銷售給中南部的吳郭魚、泰國蝦養殖戶。
+- **化肥替代品**：將虻糞包裝為「黑金土」在花市銷售。
 
----
+## 四、計畫創新性與獨特性 (Innovation & Uniqueness)
+- **環境友善零排放**：相較於傳統掩埋產生的甲烷，黑水虻幾乎不產生溫室氣體。
+- **自動化生產模組**：開發可移動式的「生物集裝箱」，直接進駐大型市場周邊進行原地處理，減少運輸碳足跡。
 
-## 3. Advantages & Disadvantages
+## 五、預期社會效益與社會影響力 (Social Impact)
+- **廢棄物削減**：預計每年處理超過 500 公噸夜市廚餘。
+- **農業永續**：減少 20% 的進口大豆或魚粉消耗，增加在地飼料自給率。
 
-### Advantages:
-- **Incredible Efficiency**: 1 kg of BSF eggs can consume 20 tons of organic waste in their lifespan.
-- **Circular Economy**: Turns a "cost" (waste disposal) into a "revenue" (protein feed/fertilizer).
-- **Eco-Friendly**: Releases **0% methane** compared to traditional landfills.
+## 六、財務永續性規劃 (Financial Sustainability Planning)
+- **營運邏輯**：雙向獲利模式 (前端收費 + 後端產品銷售)。
+- **五年財務預測**：第 3 年起實現規模化獲益。由於幼蟲成長周期極快 (14-20天)，資金周轉率高，具備強大的擴張潛力。
 
-### Disadvantages:
-- **Regulatory Gray Zones**: Current Taiwan laws are still catching up on the "insect-as-feed" industrial classification.
-- **Odor Management**: If not properly aerated, the pre-processed food waste can smell, requiring advanced ventilation systems.
-- **Scaling Complexity**: Maintaining a healthy breeding colony (the adult flies) requires precise light, humidity, and temperature control.
+## 七、人力規劃 (Human Resources & Team)
+- **計畫主持人/Steven Tanardi**：負責計畫總體開發、生物模組效率優化、畜牧通路對接。
+- **昆蟲病理研發員**：負責種蠅培育與病害防治。
+- **循環供應鏈經理**：負責夜市物流與最終產品銷售渠道開發。
 
 ---
 © 2026 Steven Tanardi. All Rights Reserved.

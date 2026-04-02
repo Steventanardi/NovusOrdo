@@ -1,43 +1,49 @@
-# Project 05: Reusable Utensil-as-a-Service (Subscription Model)
+# 第六屆台灣尤努斯創新獎 - 計畫書 (Project 05: Reusable Utensil Subscription)
 
 [<img src="https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logo=home&logoColor=white">](../README.md)
 
-## 1. Deep Research: The "Takeout Trap" in Taiwan
-Taiwanese residents use an estimated **540 million single-use containers and utensils** annually. Despite recycling efforts, the "disposable" habit is deeply embedded. Most "eco-friendly" solutions (paper/PLA) are still one-time use and resource-heavy.
-
-### The Opportunity:
-A **B2B (Business-to-Business)** subscription where restaurants do *not* own their tableware. Instead, they subscribe to a **"Clean Circulation"** network.
-
-### Taiwan Case Study:
-Programs like **"Friendly Container" (好盒器)** exist but are primarily focused on cups. There is a massive gap in **"Meal Sets"** (Bowls, Spoons, Chopsticks) for Bento stores (便當店).
+| 團隊名稱 | Yunus Vision Team |
+| :--- | :--- |
+| **計畫名稱** | **"循環餐具訂閱"：連鎖餐飲物流與標準化清洗服務計畫** |
+| **團隊成員** | **Steven Tanardi** |
+| **計畫類別** | 學生組 / 社會組 |
 
 ---
 
-## 2. Project Proposal: The "Yunus Circular Dish Lab"
+## 一、請說明團隊欲解決的社會問題 (Social Problem Analysis)
+台灣雖然推行限塑政策，但外送平台、快餐店每年仍消耗數億個一次性紙盒與塑膠餐具。許多「環保餐盒」實際上帶有塑膠淋膜，難以回收。
+- **核心問題**：消費者想要方便，店家不想洗碗。
+- **目標族群**：中小型便當店、連鎖手搖飲、辦公大樓。
 
-### Mission:
-To replace Taiwan's 7 million daily bento boxes with a professional reusable circulation service.
+## 二、公司目標、願景與產品/服務內容 (Mission & Solution)
+### 願景
+透過「Utensil-as-a-Service」模式，讓台灣外食族隨時隨地享受無塑用餐。
+### 產品與服務內容
+1.  **餐具租賃訂閱 (B2B)**：提供不鏽鋼碗、湯匙、高強度環保餐盒。
+2.  **標準化清洗中心**：符合 ISO 22000 與 HACCP 等級的專業高溫杀菌中心。
+3.  **物流配送服務**：每日定時循環，將乾淨餐具送至店家，並回收髒污餐具。
 
-### Service Model:
-1.  **Subscription Tier**: A restaurant (e.g., *Liang She Han*) pays a monthly NTD $5,000–$15,000 fee (depending on volume).
-2.  **Daily Logistics**: 
-    - **7:00 AM**: Yunus delivery trucks drop off sanitized 316 Stainless Steel or BPA-free Tritan containers.
-    - **2:00 PM / 8:00 PM**: Yunus collection trucks pick up used, dirty containers.
-3.  **Industrial Washing**: Centralized, high-heat, medical-grade sanitation hub in a light industrial zone (Wugu or Tucheng).
+## 三、商業模式 (Business Model)
+- **月費制 (Subscription)**：向店家收取優於洗碗工成本的月費，包含清洗、折舊與物流。
+- **押金制 (B2C)**：與 App 結合，消費者在配合店家掃碼取用，並可在任一加盟點歸還。
+- **數據分析**：提供店家「垃圾減量報告」，可用於 ESG 認證。
 
----
+## 四、計畫創新性與獨特性 (Innovation & Uniqueness)
+- **物流分流技術**：不同於一般物流，這是一個「逆向物流」專家，優化回收路徑與洗滌劑效能。
+- **RFID 追蹤**：每組餐具皆嵌入微型追蹤碼，降低遺失率，並能計算每組餐具的「總循環次數」。
 
-## 3. Advantages & Disadvantages
+## 五、預期社會效益與社會影響力 (Social Impact)
+- **大規模減廢**：預計每年可減少 50 萬個紙盒垃圾。
+- **創造就業**：在清洗與物流中心提供在地與身障人士多元化的職缺。
 
-### Advantages:
-- **Zero Waste**: Completely eliminates trillions of single-use items over time.
-- **Cost Savings for SME**: Small restaurants eliminate the need for dishwashers, intensive water heating, and industrial-grade dishwashing staff.
-- **Quality Enhancement**: Eating from a heavy stainless steel bowl is a better "premium" experience than a paper box.
+## 六、財務永續性規劃 (Financial Sustainability Planning)
+- **財務模型**：當參與店家超過 100 家時將達成規模經濟效益。
+- **五年財務預測**：第 2 年開始擴展至辦公大樓，營收轉盈，第 5 年達成全自動化清洗。
 
-### Disadvantages:
-- **Capital Intensity**: High upfront cost for purchasing thousands of high-quality stainless steel sets and delivery trucks.
-- **Cleaning Responsibility**: If a single batch is poorly sanitized, the "Yunus" brand face massive liability and health risk.
-- **Lost/Stolen Sets**: Residents may accidentally (or intentionally) take the premium utensils home, requiring a "Deposit" or "QR-Code Tracking" system.
+## 七、人力規劃 (Human Resources & Team)
+- **計畫主持人/Steven Tanardi**：負責計畫總體開發、食品安全法規對接、商業模式演算法設計。
+- **營運物流經理**：負責區域地圖路徑優化。
+- **品保研發員**：監測微生物殘留量，確保每一件歸還餐盒皆符合醫療級衛生標準。
 
 ---
 © 2026 Steven Tanardi. All Rights Reserved.

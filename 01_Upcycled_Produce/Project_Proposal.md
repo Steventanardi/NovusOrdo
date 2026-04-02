@@ -1,45 +1,53 @@
-# Project 01: Upcycled "Ugly" Produce Transformation
+# 第六屆台灣尤努斯創新獎 - 計畫書 (Project 01: Upcycled Produce Lab)
 
 [<img src="https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logo=home&logoColor=white">](../README.md)
 
-## 1. Deep Research: The "Ugly Produce" Problem in Taiwan
-In Taiwan, an estimated **3.7 million tons** of food waste are generated annually. A significant portion of this is "imperfect" produce (醜蔬果)—fruits and vegetables that are nutritionally perfect but aesthetically rejected by supermarkets due to size, shape, or surface blemishes.
-
-### Current Market Gaps:
-- Most rejected produce is either left to rot in fields (releasing methane) or sold at a loss to animal farms.
-- Consumers recognize the value of sustainability but lack convenient access to high-quality upcycled products.
-
-### Transformation Strategy:
-The project focuses on creating a **Value-Added Processing Hub** that transforms these "bad" vegetables and fruits into:
-1.  **Dehydrated Fruit Leathers & Chips**: High-shelf-life healthy snacks.
-2.  **Cold-Pressed Blend Juices**: Using "ugly" greens and fruits for nutrient-dense drinks.
-3.  **Fermented Condiments**: Transforming over-ripened tomatoes or chilies into gourmet sauces.
+| 團隊名稱 | Yunus Vision Team |
+| :--- | :--- |
+| **計畫名稱** | **"醜蔬果"的華麗轉身：全環境友善食品加工與賦權計畫** |
+| **團隊成員** | **Steven Tanardi** |
+| **計畫類別** | 學生組 / 社會組 (擬申請社會組) |
 
 ---
 
-## 2. Project Proposal: The "Yunus Upcycle Lab"
+## 一、請說明團隊欲解決的社會問題 (Social Problem Analysis)
+台灣每年產出約 3.7 萬公噸的剩食，其中很大一部分是所謂的「醜蔬果」(Imperfect Produce)。這些產品在營養價值上與超市貨架上的產品無異，但僅因外觀斑點、形狀不對稱或大小不符標準，即被大型通路商拒收。
+- **核心問題**：農民因通路篩選而損失 20-30% 的收成，且剩食在掩埋場分解產生大量溫室氣體。
+- **目標族群**：中南部農村合作社、注重永續消費的城市群體。
 
-### Mission:
-To eliminate food waste at the source by proving that "Ugly is Beautiful" through gourmet transformation.
+## 二、公司目標、願景與產品/服務內容 (Mission & Solution)
+### 願景
+透過「價值轉型」讓台灣成為無剩食的寶島。
+### 產品與服務內容
+1.  **高值化加工 (Upcycling)**：將被拒收的蔬果轉化為天然乾燥果乾、蔬果粉、發酵調味料。
+2.  **Yunus 標章認證**：建立一個「醜蔬果公平收購」機制，保障農民基本利潤。
+3.  **冷壓混和飲品**：利用外觀受損但核心完好的水果，開發高營養價值的代餐果昔。
 
-### Execution Plan:
-1.  **Sourcing**: Establish direct contracts with agricultural cooperatives in Central/Southern Taiwan (Yunlin, Chiayi) to buy "B-grade" produce at a fair price (higher than animal feed, lower than wholesale).
-2.  **Processing**: Centralized "Clean-Room" processing facility in New Taipei City for washing, cutting, and low-temperature dehydration.
-3.  **Branding**: A "Yunus" branded premium line sold in minimalist, eco-friendly packaging.
+## 三、商業模式 (Business Model - BMC)
+- **價值主張 (VP)**：提供農民優於二級品收購價的獲利，並提供消費者具備高度永續故事性的高品質食品。
+- **關鍵活動 (KA)**：與農民簽約收購、低溫真空乾燥加工、品牌行銷。
+- **通路 (CH)**：社會企業通路、永續生活選物店、線上直營電商。
+- **成本結構 (CS)**：收購成本、加工設備運營、包裝。
+- **收入來源 (RS)**：產品銷售收入、永續食育工作坊。
 
----
+## 四、計畫創新性與獨特性 (Innovation & Uniqueness)
+- **數位透明度**：使用 QR Code 追蹤每一包產品的「救援履歷」，告知消費者這包產品減少了多少溫室氣體。
+- **多級加工**：根據蔬果狀態進行分流 (最完整者做果乾，受損者做發酵醬料)，極大化資源利用效率。
 
-## 3. Advantages & Disadvantages
+## 五、預期社會效益與社會影響力 (Social Impact)
+- **環境效應**：每年預計減少 100 噸剩食直接進入廢棄物處理。
+- **經濟效益**：提升在地小農 15% 以上的额外收入。
+- **社會認知**：推廣「外觀不代表價值」的共融觀念。
 
-### Advantages:
-- **High Margin**: Low raw material cost transformed into premium-priced artisan goods.
-- **Social Impact**: Provides a secondary income stream for Taiwanese farmers.
-- **Carbon Reduction**: Diverts organic waste from landfills, reducing greenhouse gas emissions.
+## 六、財務永續性規劃 (Financial Sustainability Planning - 5 Year Forecast)
+- **Year 1-2**：資本投入 (設備購買)、建立農村收購點。預計虧損。
+- **Year 3**：品牌建立完成，通路擴張至連鎖有機店，達成收支平衡。
+- **Year 4-5**：盈餘轉投資於更大型的自動化加工廠，擴展產品種類至冷凍食品。
 
-### Disadvantages:
-- **Logistics Complexity**: Imperfect produce often spoils faster; requires immediate transport and processing.
-- **Seasonal Supply**: Depending on crop cycles, the "product line" must change frequently (e.g., Mango in summer, Cabbage in winter).
-- **Quality Control**: Requires rigorous safety testing as "imperfect" produce can sometimes hide internal bruising or rot.
+## 七、人力規劃 (Human Resources & Team)
+- **計畫主持人/Steven Tanardi**：負責計畫總體開發、社會企業架構設計、跨國永續資源連動。
+- **研發團隊**：農業科技背景成員 (執行蔬果保鮮與加工工藝優化)。
+- **行銷團隊**：專注於永續故事化行銷。
 
 ---
 © 2026 Steven Tanardi. All Rights Reserved.

@@ -1,43 +1,49 @@
-# Project 06: The "Yunus Algae-Oxygen" Vertical Bio-Wall
+# 第六屆台灣尤努斯創新獎 - 計畫書 (Project 06: Algae-Oxygen Bio-Wall)
 
 [<img src="https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logo=home&logoColor=white">](../README.md)
 
-## 1. Deep Research: The "Clean Air" Challenge in Taipei
-Taipei is a dense basin city with high humidity and significant vehicular PM2.5 pollution. While air purifiers are common, they use filters that eventually become landfill waste and create high energy consumption.
-
-### The Biological "Hack":
-Algae (specifically *Chlorella*) is one of the most efficient oxygen producers on Earth. A single square meter of an active algae bioreactor can produce as much oxygen as **10 mature trees**.
-
-### Why Algae in Taiwan?
-- **Humidity & Light**: Taiwan's climate is ideal for maintaining algae colonies without intense artificial heating.
-- **Micro-Living**: In 20-30m² Taipei "nano-apartments," people often lack space for large indoor gardens; a vertical, thin bioreactor saves space.
+| 團隊名稱 | Yunus Vision Team |
+| :--- | :--- |
+| **計畫名稱** | **"微藻牆"：室內主動式氧氣工廠與 PM2.5 淨化計畫** |
+| **團隊成員** | **Steven Tanardi** |
+| **計畫類別** | 學生組 / 社會組 |
 
 ---
 
-## 2. Project Proposal: The "Yunus Bio-Wall Kit"
+## 一、請說明團隊欲解決的社會問題 (Social Problem Analysis)
+台北、台中等盆地城市，空氣品質常因地貌因素導致 PM2.5 積累。現代都市人 90% 的時間在室內，室內空氣汙染 (CO2 過高、揮發性有機物 VOCs) 導致健康受損與注意力下降。
+- **核心問題**：現有空氣清淨機僅具過濾功能，無法主動產生氧氣且濾網成為新垃圾。
+- **目標族群**：台北狹小公寓住戶、共享辦公室、長照中心、以及環境友善建案。
 
-### Mission:
-To transform indoor air quality into a living "Oxygen Sanctuary" using vertical micro-algae bioreactors.
+## 二、公司目標、願景與產品/服務內容 (Mission & Solution)
+### 願景
+將「活的亞馬遜森林」微縮至每一面都市牆面。
+### 產品與服務內容
+1.  **微藻生物反應器 (Algae Bioreactor)**：超薄型、透明式的直立牆面組件，內置 *Chlorella* (小球藻) 活體水溶液。
+2.  **主動式進氣系統**：靜音風扇將室內空氣鼓入反應器中，由藻類光合作用吸收二氧化碳並排出高濃度氧氣。
+3.  **IOT 養分維持模組**：自動偵測藻類密度，並補充微量元素。
 
-### System Architecture:
-1.  **The Bioreactor**: A slim, transparent acrylic panel (2ft x 4ft) that contains a nutrient-rich water solution and live algae.
-2.  **LED Integration**: High-efficiency LED strips that pulse at a specific wavelength (450nm/660nm) to maximize photosynthesis during nighttime.
-3.  **Active Air Intake**: A silent fan system that pulls indoor air *through* the algae solution, scrubbing CO2 and PM2.5 while bubbling out pure O2.
-4.  **The "Yunus Nutrient Pods" (Subscription)**: A monthly refill of trace minerals and algae starter.
+## 三、商業模式 (Business Model)
+- **產品銷售 (B2C)**：由家居設計連鎖與永續建材商銷售模組套件。
+- **養分包訂閱服務 (Subscription)**：每月配送「藻類生長液」與「過濾綿」更新包。
+- **生物碳封存服務 (B2B)**：為大型辦公大樓計算藻類牆的固碳量，提供碳權抵銷數據。
 
----
+## 四、計畫創新性與獨特性 (Innovation & Uniqueness)
+- **10倍效率**：1 平方公尺的微藻牆產生的氧氣量，相當於 10 棵成年的大樹。
+- **美學與功能的融合**：綠色的流光牆面可作為氛圍照明 (Bio-Lighting)，改善居住者的心理健康。
 
-## 3. Advantages & Disadvantages
+## 五、預期社會效益與社會影響力 (Social Impact)
+- **呼吸健康**：顯著降低室內二氧化碳濃度 (低於 800ppm)，提升居住舒適度。
+- **永續循環**：藻類在更換時可作為一般植物的液態肥料，實現 100% 生物回歸。
 
-### Advantages:
-- **Unbeatable Efficiency**: 10x more oxygen than traditional houseplants in the same footprint.
-- **Air Quality Control**: Actively scrub PM2.5 and CO2, reducing "Sick Building Syndrome" in urban apartments.
-- **Biophilic Design**: The glowing green panel acts as a calming, living "art" piece and natural nightlight.
+## 六、財務永續性規劃 (Financial Sustainability Planning)
+- **營運階段**：第一年進行台北公寓試點，第二年推廣至長照與醫療院所。
+- **五年財務預測**：由於微藻牆屬於高端機能家具，毛利率較高，預計可在第 4 年達成技術普及與財務盈利。
 
-### Disadvantages:
-- **Maintenance (The "Ick" Factor)**: Algae requires bi-weekly cleaning to prevent biofilm buildup on the acrylic.
-- **Evaporation & Noise**: The bubbling sound (like an aquarium) may bother light sleepers, and water levels must be topped up frequently in Taipei's AC-heavy environments.
-- **Dead Colonies**: If the temperature spikes or nutrients are missed, the algae can "crash" (die), turning the water from green to brown overnight.
+## 七、人力規劃 (Human Resources & Team)
+- **計畫主持人/Steven Tanardi**：負責計畫總體開發、微藻生理參數庫管理、綠室內設計市場開發。
+- **生物化學研究員**：負責藻種篩選與增殖效率優化。
+- **工業設計師**：負責反應器的漏液防護與外觀美學設計。
 
 ---
 © 2026 Steven Tanardi. All Rights Reserved.
