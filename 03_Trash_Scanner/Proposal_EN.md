@@ -19,9 +19,9 @@ Despite Taiwan's high 60% recycling rate, "False Recycling" persists. Paper cont
 ### Vision
 To achieve a "True Circular Economy" through molecular-level identification.
 ### Solution & Product
-1.  **AI Multimodal Scanning Module**: Integrates NIR (Near-Infrared) and RGB vision to differentiate polymers and coatings instantly.
-2.  **Vision-Only Assist (Worker Guidance)**: AR-driven floor guidance to tell workers exactly which bin to use for ambiguous waste.
-3.  **Automated Sorting Conveyor**: High-speed deltas and air-knives for high-volume centers.
+1.  **Industrial Multimodal Module**: Integrated **trinamiX NIR** sensors ($1,500/unit) for molecular identification paired with **Basler/FLIR 4K RGB** cameras for brand recognition.
+2.  **Vision-Only Assist (AR Guidance)**: Targeted at workers in Taiwan's existing recycling centers to improve 4-in-1 sorting precision.
+3.  **Delta Robotic Sorter**: Utilizing **Fanuc M-2iA** or **ABB IRB 360** high-speed arms capable of 120-150 picks per minute.
 
 ## 3. Business Model
 - **Hardware Leasing/Sales**: Direct sales to recycling centers and municipalities.

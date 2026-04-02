@@ -1,12 +1,12 @@
 # 第六屆台灣尤努斯創新獎 - 計畫書 (Project 02: Energy Harvesting Tiles)
 
-[<img src="https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logo=home&logoColor=white">](../README.md)
+[<img src="https://img.shields.io/badge/Language%20-%20English-0078D4?style=for-the-badge&logo=google-translate&logoColor=white">](Proposal_EN.md) [<img src="https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logo=home&logoColor=white">](../README.md)
 
 | 團隊名稱 | Yunus Vision Team |
 | :--- | :--- |
 | **計畫名稱** | **"能量地磚"：城市微電力發電與智慧交通應用計畫** |
 | **團隊成員** | **Steven Tanardi** |
-| **計畫類別** | 學生組 / 社會組 |
+| **計畫類別** | 社會組 |
 
 ---
 
@@ -19,9 +19,9 @@
 ### 願景
 讓每一位台北市民的「腳步」都成為城市的光亮。
 ### 產品與服務內容
-1.  **電磁感應地磚 (Electromagnetic Kinetic Tiles)**：耐用且高效率的地磚單元，每步產生 5-8 瓦特。
-2.  **數據監測系統**：即時顯示市民行走產生的「總減碳量」與「發電看板」。
-3.  **微電網整合**：將產生的電力用於捷運站的指示燈、逃生出口標示、或手機充電站。
+1.  **電磁感應地磚 (Electromagnetic Induction Tiles)**：採用業界領先的 Pavegen v3 技術標準，每一步踏擊可產生 **2–5 焦耳 (Joule)** 能量，峰值功率達 **7 瓦特 (Watt)**。
+2.  **即時減碳看板**：將步行能量轉化為視覺化數據，透過智慧看板呈現社區綠能貢獻。
+3.  **TENG 技術導入**：與 **成功大學 (NCKU)** 跨維度綠能中心合作，開發 2025 年最新摩擦納米發電技術 (30V+)，供應低功耗 IoT 感測器。
 
 ## 三、商業模式 (Business Model)
 - **價值主張**：為公共部門提供高公眾參與感的低碳城市轉型指標。

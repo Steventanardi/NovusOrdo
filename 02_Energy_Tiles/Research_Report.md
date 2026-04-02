@@ -20,6 +20,20 @@ Energy tiles convert the mechanical energy of footsteps into electricity using t
 
 ---
 
+### 2. The Power Profile: How much does 1 Step produce?
+Based on 2024-2025 industry benchmarks (Pavegen v3 and modern Induction tiles):
+- **Energy per Step**: **2 to 5 Joules (Watt-seconds)**.
+- **Peak Power Output**: Up to **7 Watts** per step for electromagnetic induction tiles.
+- **Comparison (Piezoelectric)**: Traditional piezoelectric tiles are significantly less efficient, producing only **0.1 to 0.5 Watts** per step.
+- **Comparison (TENG)**: Triboelectric Nanogenerators (TENGs) are emerging as high-voltage (30V+) alternatives for self-powered IoT sensors.
+
+### 3. Implementation Focus: Taiwan High-Traffic Areas
+Taiwan's unique urban density provides a "High-Yield" environment for kinetic harvesting.
+- **MRT Stations (Taipei/Kaohsiung)**: A single commuter walking through a gate (3 steps) produces ~15 Joules. With 2 million daily riders, the potential is **30 Megajoules per day**.
+- **Case Study**: **National Cheng Kung University (NCKU)** Hi-GEM Center is currently leading research in TENG-based "Waste Energy" harvesting to power campus IoT networks.
+
+---
+
 ## 3. Feasibility in Taiwan (MRT & Bus Stations)
 Taiwan is an ideal environment for this technology due to its extremely high population density and centralized transit hubs.
 
@@ -44,9 +58,9 @@ Taiwan is an ideal environment for this technology due to its extremely high pop
 ---
 
 ## 5. Implementation Roadmap for Taiwan
-1.  **Phase 1: Pilot Corridor (20mÂ²):** Target a single high-traffic entrance at Taipei Main Station.
-2.  **Phase 2: Interactive Engagement:** Link the energy generated to a public dashboard showing "Total Carbon Offset" and "Energy Produced by Citizen Power."
-3.  **Phase 3: Integration:** Use generated energy to power local directional lighting or ticketing area displays.
+1.  **Electromagnetic Induction Tiles (Pavegen v3 Standard)**: High-efficiency modular tiles generating **2–5 Joules** per step (Peak **7W**).
+2.  **Visual Data Monitoring**: Real-time dashboards showing "Total Carbon Saved" using Taiwan-specific grid emission factors.
+3.  **Micro-Grid Integration**: Directing power to MRT signage, emergency exit lights, or **Self-Powered IoT Sensors** (as researched by NCKU).
 
 ---
 
@@ -62,7 +76,9 @@ Implementing energy tiles in Taiwan is **highly feasible as a pilot project**. W
 - **Engagement & Data**: Provides real-time data on foot traffic and promotes sustainable behaviors in citizens.
 
 ### Disadvantages:
-- **High Per-Tile Cost**: Current manufacturing costs for piezoelectric or electromagnetic induction tiles are significantly higher than traditional flooring.
+- **High Per-Tile Cost**: 1.  **電磁感應地磚 (Electromagnetic Induction Tiles)**：採用國際 Pavegen v3 標準，每步可產出 **2–5 焦耳 (Joule)** 之能量，峰值功率可達 **7 瓦特 (Watt)**。
+2.  **數據監測系統**：即時顯示市民行走產生的「總減碳量」與「發電看板」，結合台灣電力公司排放係數計算。
+3.  **微電網整合**：將產生的電力用於捷運站的指示燈、逃生出口標示、或 **NCKU 研發之自供電 IoT 感測器**。
 - **Maintenance**: Mechanical parts (springs/magnets) under the tiles require periodic maintenance to prevent friction-based noise or failure.
 - **Low Power per Unit**: 1-2 tiles only power light bulbs; thousands are needed for significant industrial power supply.
 
