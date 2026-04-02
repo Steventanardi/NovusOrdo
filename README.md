@@ -35,4 +35,5 @@ A research project on the material science and implementation of Sugarcane Bagas
 > Each document contains a **"Back to Home"** button at the top for easy navigation throughout the repository.
 
 ---
-© 2026 Yunus / Steventanardi. All Research & Designs are Open Source.
+© 2026 Steven Tanardi. All Research & Designs are Open Source.
+

@@ -48,4 +48,4 @@ While bagasse is $0.15 - $0.20 more expensive than plastic, businesses in Taiwan
 Applying Sugarcane Bagasse utensils in Taiwan is **highly viable**. The regulatory pressure is increasing, the material fits the hot food culture, and the cost is lower than wooden alternatives while being much more eco-friendly than plastic.
 
 ---
-© 2026 Yunus / Steventanardi. Sustainable Design Research.
+© 2026 Steven Tanardi. All Rights Reserved.
