@@ -1,39 +1,48 @@
-# Novus Ordo: Sustainability & Logic Intelligence
+# Yunus: The Urban Sustainability Masterplan
 
-Welcome to the **Novus Ordo** workspace. This repository contains the combined research and engineering designs for two major urban sustainability initiatives: **Kinetic Energy Tiles** and **Smart Trash Selection Systems**.
-
----
-
-## 🏗️ Project Modules
-
-Choose a section to explore:
-
-[<img src="https://img.shields.io/badge/Energy%20Tiles%20Research-007ACC?style=for-the-badge&logo=power&logoColor=white">](Energy%20Tiles/Research_Report.md)
-[<img src="https://img.shields.io/badge/Trash%20Selection%20System-00C853?style=for-the-badge&logo=recycle&logoColor=white">](Trash_Selection_System/Project_Overview.md)
-[<img src="https://img.shields.io/badge/Eco--Friendly%20Utensils-D32F2F?style=for-the-badge&logo=leaf&logoColor=white">](Eco_Disposable_Utensils/Research_Report.md)
+Welcome to the **Yunus** repository, curated and engineered by **Steven Tanardi**. This project is a comprehensive collection of research and tactical proposals for solving urban environmental challenges in Taiwan.
 
 ---
 
-### 1. Energy Tiles Initiative
-Exploring the feasibility of harvesting kinetic energy from foot traffic in high-traffic urban areas like Taiwan MRT stations.
-- [View Research Report](Energy%20Tiles/Research_Report.md)
-- [View Budget Proposal](Energy%20Tiles/Budget_Proposal.md)
+## 🏗️ Project Portfolio
 
-### 2. Smart Trash Selection System
-An AI-driven approach to solving Taiwan's 13-category recycling challenge. This section includes industrial machine designs and worker-assist vision technologies.
-- [Project Overview](Trash_Selection_System/Project_Overview.md)
-- [Industrial Machine Design](Trash_Selection_System/System_Machine_Design.md)
-- [Vision-Only Assist (AI Tool)](Trash_Selection_System/Vision_Only_Assist.md)
+Select a module to explore the deep research and detailed proposals:
 
-### 3. Sustainable Dining Solutions
-A research project on the material science and implementation of Sugarcane Bagasse utensils as a replacement for single-use plastics in Taiwan's food industry.
-- [Disposable Utensils Research](Eco_Disposable_Utensils/Research_Report.md)
+| Project | Concept | Status |
+| :--- | :--- | :--- |
+| **01** | [**Upcycled Produce Lab**](01_Upcycled_Produce/Project_Proposal.md) | [<img src="https://img.shields.io/badge/Research-Complete-green?style=for-the-badge">](01_Upcycled_Produce/Project_Proposal.md) |
+| **02** | [**Energy Harvesting Tiles**](02_Energy_Tiles/Research_Report.md) | [<img src="https://img.shields.io/badge/Bio--induction-Ready-blue?style=for-the-badge">](02_Energy_Tiles/Research_Report.md) |
+| **03** | [**Smart Trash Scanner**](03_Trash_Scanner/Research_Report.md) | [<img src="https://img.shields.io/badge/AI--Vision-Active-yellow?style=for-the-badge">](03_Trash_Scanner/Research_Report.md) |
+| **04** | [**BSF Larvae Composting**](04_BSF_Composting/Project_Proposal.md) | [<img src="https://img.shields.io/badge/Circular-Ecosystem-orange?style=for-the-badge">](04_BSF_Composting/Project_Proposal.md) |
+| **05** | [**Reusable Utensil Service**](05_Reusable_Utensil_Service/Project_Proposal.md) | [<img src="https://img.shields.io/badge/B2B--SaaS-Plan-red?style=for-the-badge">](05_Reusable_Utensil_Service/Project_Proposal.md) |
+| **06** | [**Algae-Oxygen Wall**](06_Algae_Oxygen_Wall/Project_Proposal.md) | [<img src="https://img.shields.io/badge/Bio--Purifier-Experimental-purple?style=for-the-badge">](06_Algae_Oxygen_Wall/Project_Proposal.md) |
 
 ---
 
-> [!TIP]
-> Each document contains a **"Back to Home"** button at the top for easy navigation throughout the repository.
+## 🔬 Core Initiative Overviews
+
+### 🍎 1. Upcycled "Ugly" Produce
+Buying "imperfect" fruits and vegetables from Taiwanese farmers that supermarkets reject and transforming them into gourmet juices, dehydrated snacks, and fermented condiments.
+
+### ⚡ 2. Kinetic Energy Tiles
+A small-scale pilot (school/dorm size) focusing on harvesting electricity from footsteps to power local LED lighting and public engagement dashboards.
+
+### 🔍 3. AI-Powered Trash Scanning
+A detailed machine design and worker-assist app for distinguishing Taiwan's 13 complex recycling categories using NIR spectroscopy and Computer Vision.
+
+### 🪰 4. Black Soldier Fly (BSF) Larvae
+Turning organic food waste from Taiwan's night markets into high-protein animal feed and organic fertilizer using highly efficient BSF larvae.
+
+### 🍴 5. Reusable Utensil Subscription
+A specialized B2B service for Taiwan's takeout culture where restaurants subscribe to a sanitized, high-quality reusable tableware circulation network.
+
+### 🌿 6. Algae-Oxygen Wall
+A vertical bioreactor for dense urban apartments (Taipei) that uses live Chlorella algae to produce 10x more oxygen than houseplants while scrubbing PM2.5.
 
 ---
-© 2026 Steven Tanardi. All Research & Designs are Open Source.
 
+> [!IMPORTANT]
+> All designs and research within this repository are the intellectual property of **Steven Tanardi**.
+
+---
+© 2026 Steven Tanardi. All Rights Reserved.
