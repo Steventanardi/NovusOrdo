@@ -1,6 +1,6 @@
 # 6th Taiwan Yunus Innovation Award - Project Proposal (05: Reusable Utensil Subscription)
 
-[<img src="https://img.shields.io/badge/Language%20-%20中文繁體-000000?style=for-the-badge&logo=google-translate&logoColor=white">](Proposal_CH.md) [<img src="https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logo=home&logoColor=white">](../README.md)
+[<img src="https://img.shields.io/badge/Language%20-%20中文繁體-000000?style=for-the-badge&logo=google-translate&logoColor=white">](Proposal_CH.md) [<img src="https://img.shields.io/badge/Language%20-%20Indonesia-red?style=for-the-badge&logo=google-translate&logoColor=white">](Proposal_ID.md) [<img src="https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logo=home&logoColor=white">](../README.md)
 
 | Team Name | Yunus Vision Team |
 | :--- | :--- |
