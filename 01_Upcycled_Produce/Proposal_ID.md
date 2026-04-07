@@ -1,52 +1,74 @@
-# Penghargaan Inovasi Yunus Taiwan ke-6 - Proposal Proyek (01: Lab Produk Daur Ulang / Upcycled Produce Lab)
+# 🌿 Penghargaan Inovasi Yunus Taiwan ke-6 - Proposal Proyek (01)
+## Lab Produk Upcycled: Mendefinisikan Ulang Standar Estetika dalam Rantai Pasok Buah Taiwan
 
 [<img src="https://img.shields.io/badge/Language%20-%20English-000000?style=for-the-badge&logo=google-translate&logoColor=white">](Proposal_EN.md) [<img src="https://img.shields.io/badge/Language%20-%20中文繁體-000000?style=for-the-badge&logo=google-translate&logoColor=white">](Proposal_CH.md) [<img src="https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logo=home&logoColor=white">](../README_ID.md)
 
 | Nama Tim | Tim Visi Yunus |
 | :--- | :--- |
 | **Nama Proyek** | **Transformasi "Buah Buruk Rupa": Inisiatif Pemrosesan Makanan Sirkular & Pemberdayaan** |
-| **Anggota Tim** | **Steven Tanardi** |
-| **Kategori** | Kelompok Sosial |
+| **Ketua Proyek** | **Steven Tanardi** |
+| **Kategori** | Kelompok Perusahaan Sosial |
 
 ---
 
-## 1. Analisis Masalah Sosial
-Setiap tahun, Taiwan memproduksi sekitar 37.000 ton limbah makanan. Sebagian besar terdiri dari "Produk Buruk Rupa"—buah dan sayuran yang secara nutrisi baik tetapi ditolak oleh supermarket karena cacat estetika kecil seperti bintik, bentuk asimetris, atau ukuran non-standar.
-- **Tantangan Utama**: Petani kehilangan 20-30% potensi pendapatan panen mereka karena penilaian estetika, sementara produk yang dibuang menghasilkan metana di tempat pembuangan akhir.
-- **Target Demografis**: Koperasi pertanian pedesaan (Taiwan Tengah/Selatan) dan konsumen perkotaan yang sadar lingkungan.
+## 🏛️ 1. Analisis Masalah Sosial
 
-## 2. Misi Perusahaan & Solusi
+### ⚠️ "Pajak Estetika" bagi Petani
+Taiwan memproduksi sekitar **37.000 ton** limbah makanan setiap tahun. Pendorong utamanya adalah "Penilaian Estetika" (等級篩選) yang ketat oleh rantai supermarket.
+- **Konflik Utama**: Buah-buahan yang secara nutrisi sempurna tetapi memiliki bintik kecil di kulit, bentuk asimetris, atau ukuran non-standar ditolak (Produk Sekunder).
+- **Kerugian Finansial**: Petani pedesaan di Taiwan Tengah dan Selatan kehilangan **20-30%** dari potensi pendapatan mereka, memaksa mereka ke dalam siklus kemiskinan.
+- **Biaya Lingkungan**: Produk yang dibuang masuk ke tempat pembuangan akhir, menghasilkan metana—gas rumah kaca yang 25x lebih kuat daripada CO2.
+
+### 🎯 Target Demografis
+- **Koperasi Pedesaan**: Petani kecil di Yunlin, Chiayi, dan Nantou.
+- **Masyarakat Urban Sadar Lingkungan**: Konsumen yang mencari camilan sehat dengan "kisah moral."
+
+## 🚀 2. Misi Perusahaan & Solusi
+
+> **"Mengubah Kerugian Pertanian menjadi Keuntungan Sirkular."**
+
 ### Visi
-Mendefinisikan ulang "limbah" sebagai "sumber daya," menciptakan pulau tanpa limbah untuk Taiwan.
-### Solusi & Produk
-1.  **Pemrosesan Makanan Daur Ulang (Upcycled)**: Mengubah produk yang ditolak menjadi camilan dehidrasi bernilai tinggi, bubuk buah, dan bumbu fermentasi.
-2.  **Sertifikasi Yunus**: Membangun "Mekanisme Pembelian Adil" untuk produk buruk rupa, menjamin margin keuntungan dasar bagi petani.
-3.  **Campuran Cold-Pressed Aktif**: Memanfaatkan buah yang rusak secara kosmetik tetapi sempurna secara internal untuk smoothie pengganti makanan yang padat nutrisi.
+Memutuskan hubungan antara "Nilai Pasar" dengan "Penampilan Kosmetik," membangun siklus pertanian nol-limbah untuk Taiwan.
 
-## 3. Model Bisnis
-- **Proposisi Nilai (VP)**: Menawarkan harga yang lebih tinggi daripada pasar sekunder kepada petani sambil memberikan cerita makanan yang premium dan berkelanjutan kepada konsumen.
-- **Aktivitas Utama (KA)**: Pembelian terkontrak, dehidrasi vakum suhu rendah, dan penceritaan merek (brand storytelling).
-- **Saluran (CH)**: Jaringan perusahaan sosial, toko gaya hidup berkelanjutan, dan e-commerce D2C langsung.
-- **Aliran Pendapatan**: Penjualan produk dan lokakarya pendidikan limbah makanan.
+### Solusi Upcycled
+1. **Upcycling Presisi**: Menggunakan dehidrasi vakum suhu rendah (低溫真空乾燥) untuk menjaga 95% nutrisi dalam buah yang buruk rupa, mengubahnya menjadi camilan premium.
+2. **Segel Beli-Adil Yunus**: Sistem sertifikasi yang membeli buah "Buruk Rupa" dengan harga **1,5x harga pasar** barang sekunder, secara langsung mendanai dampak sosial.
+3. **Fermentasi Cerdas**: Buah yang tidak cocok untuk camilan (karena memar) dialihkan menjadi enzim buah kelas atas dan bumbu fermentasi, memastikan **Nol-Limbah** di fasilitas produksi.
 
-## 4. Inovasi & Keunikan
-- **Transparansi Digital**: Menggunakan kode QR untuk melacak "Resume Penyelamatan" dari setiap paket, menunjukkan emisi GRK yang tepat yang dihindari.
-- **Pemrosesan Multi-Kelas**: Pemrosesan tersegmentasi (dehidrasi untuk buah sempurna, fermentasi untuk buah rusak) untuk memaksimalkan efisiensi transformasi limbah menjadi sumber daya.
+## 📊 3. Model Bisnis & Inovasi
 
-## 5. Dampak Sosial yang Diharapkan
-- **Lingkungan**: Menargetkan pengurangan 100 ton limbah makanan langsung setiap tahun.
-- **Ekonomi**: Meningkatkan pendapatan petani kecil lebih dari 15%.
-- **Kesadaran Sosial**: Mempromosikan konsep bahwa "Penampilan tidak mendefinisikan nilai."
+### Proposisi Nilai
+- **Untuk Petani**: Jaminan penyerapan hasil panen non-standar, memberikan jaring pengaman finansial.
+- **Untuk Konsumen**: Akses ke produk "Label Bersih" (Clean Label) yang memetakan langsung ke tujuan pengurangan karbon.
 
-## 6. Perencanaan Keberlanjutan Finansial
-- **Tahun 1-2**: Padat modal (pembelian peralatan), membangun pusat pengumpulan. Estimasi rugi/balik modal.
-- **Tahun 3**: Pengakuan merek mapan; ekspansi ke rantai ritel organik untuk mencapai profitabilitas.
-- **Tahun 4-5**: Menginvestasikan kembali keuntungan ke pabrik pemrosesan otomatis dan berekspansi ke makanan siap saji beku.
+### 💡 Inovasi Teknologi & Sosial
+- **QR Pelacak GRK**: Setiap paket menyertakan kode QR yang menautkan ke "Resume Penyelamatan" (救援履歷), menunjukkan liter air yang dihemat dan gram metana yang dicegah secara tepat.
+- **Penetapan Harga Dinamis**: Menggunakan AI untuk memprediksi surplus musiman di kabupaten tertentu (misalnya, Nanas di Pingtung) untuk menjadwalkan produksi upcycling secara preventif.
 
-## 7. Sumber Daya Manusia & Tim
-- **Ketua Proyek / Steven Tanardi**: Pengembangan strategi, desain kerangka kerja perusahaan sosial, dan koordinasi sumber daya berkelanjutan internasional.
-- **Tim R&D**: Spesialis teknologi pertanian yang berfokus pada perpanjangan masa simpan dan optimalisasi pemrosesan.
-- **Tim Pemasaran**: Fokus pada penceritaan yang didorong oleh dampak (impact-driven storytelling).
+## 🌍 4. Penyelarasan SDG & Dampak
+
+| SDG | Tujuan | Implementasi |
+| :---: | :--- | :--- |
+| **2** | **Tanpa Kelaparan** | Memanfaatkan setiap gram nutrisi yang diproduksi. |
+| **12** | **Konsumsi Bertanggung Jawab** | Mengurangi limbah pertanian melalui upcycling. |
+| **13** | **Penanganan Perubahan Iklim** | Mencegah emisi metana dari tempat pembuangan akhir. |
+
+### Ekspektasi Dampak 5 Tahun
+- **Pengurangan Limbah**: 1.200 ton limbah organik yang dialihkan.
+- **Pendapatan Petani**: Peningkatan laba bersih kumulatif +25% untuk 50+ pertanian mitra.
+- **Sekuestrasi Karbon**: Penyeimbangan karbon yang setara dengan 2.500 pohon dewasa.
+
+## 📈 5. Keberlanjutan Finansial & Strategis
+
+### Penskalaan Bertahap
+- **Fase 1 (Persiapan)**: Fasilitas percontohan di Kaohsiung; membangun pusat pengumpulan.
+- **Fase 2 (Pertumbuhan)**: Kemitraan B2B dengan rantai organik (misalnya, Leezen, Cotton Field).
+- **Fase 3 (Ekspansi)**: Mengekspor merek "Taiwan Upcycled" ke pasar Asia Tenggara.
+
+---
+### 🛠️ Tim
+- **Steven Tanardi (Ketua Proyek)**: Strategi, Kerangka Kerja Perusahaan Sosial, Desain UX.
+- **Mitra Teknologi Pangan**: Ahli dalam perpanjangan masa simpan tanpa bahan tambahan.
 
 ---
 © 2026 Steven Tanardi. Hak Cipta Dilindungi Undang-Undang.

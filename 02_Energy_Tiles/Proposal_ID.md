@@ -1,52 +1,71 @@
-# Penghargaan Inovasi Yunus Taiwan ke-6 - Proposal Proyek (02: Ubin Pemanen Energi / Energy Harvesting Tiles)
+# ⚡ Penghargaan Inovasi Yunus Taiwan ke-6 - Proposal Proyek (02)
+## Kisi Kinetik: Pemanenan Energi Terdesentralisasi yang Interaktif untuk Infrastruktur Publik
 
 [<img src="https://img.shields.io/badge/Language%20-%20English-0078D4?style=for-the-badge&logoColor=white">](Proposal_EN.md) [<img src="https://img.shields.io/badge/Language%20-%20中文繁體-0078D4?style=for-the-badge&logoColor=white">](Proposal_CH.md) [<img src="https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logoColor=white">](../README_ID.md)
 
 | Nama Tim | Tim Visi Yunus |
 | :--- | :--- |
-| **Nama Proyek** | **"Kisi Kinetik": Pembangkit Daya Mikro Perkotaan & Inisiatif Mobilitas Cerdas** |
-| **Anggota Tim** | **Steven Tanardi** |
-| **Kategori** | Kelompok Sosial |
+| **Nama Proyek** | **Kisi Kinetik: Pembangkit Daya Mikro & Inisiatif Mobilitas Perkotaan Cerdas** |
+| **Ketua Proyek** | **Steven Tanardi** |
+| **Kategori** | Implementasi Teknologi & Sosial |
 
 ---
 
-## 1. Analisis Masalah Sosial
-Taiwan berada dalam tekanan besar untuk transisi energi. Pusat-pusat perkotaan besar (stasiun MRT, pusat transit, jalur pejalan kaki bawah tanah) memiliki jutaan penumpang harian yang "energi berjalan"-nya saat ini terbuang sebagai panas/kebisingan sekitar.
-- **Tantangan Utama**: Kurangnya solusi ambang rendah untuk mengubah "perilaku sehari-hari" menjadi "listrik hijau."
-- **Target Demografis**: MRT Taipei, pusat transit publik utama, dan infrastruktur kota cerdas.
+## 🏛️ 1. Analisis Masalah Sosial
 
-## 2. Misi Perusahaan & Solusi
+### ⚠️ Energi Massa yang Belum Dimanfaatkan
+Pusat transit Taiwan (Stasiun Utama Taipei, Terminal Banqiao, Stasiun MRT) melihat jutaan komuter setiap hari. Saat ini, **energi kinetik** (動能) yang dihasilkan oleh jutaan langkah ini terbuang sebagai gesekan, panas, dan getaran struktural.
+
+- **Tantangan**: Taiwan menghadapi tekanan transisi energi yang parah. Sementara surya/angin sangat penting, "Pembangkit Mikro" (微型發電) di lokasi perkotaan saat ini absen dari jaringan.
+- **Kesenjangan**: Kurangnya solusi energi hijau dengan keterlibatan tinggi yang mengajarkan masyarakat tentang intensitas karbon secara waktu nyata.
+
+### 🎯 Target Demografis
+- **Sektor Publik**: Sistem MRT Taipei/Kaohsiung, Departemen Perhubungan.
+- **Institusi Akademik**: Koridor universitas dengan lalu lintas tinggi (misalnya, NTU, NCKU).
+
+## 🚀 2. Misi Perusahaan & Solusi
+
+> **"Mengubah Setiap Langkah menjadi Percikan bagi Masa Depan Taiwan."**
+
 ### Visi
-Menjadikan setiap "langkah" warga sebagai sumber daya untuk masa depan kota.
-### Solusi & Produk
-1.  **Ubin Induksi Elektromagnetik (Standar Pavegen v3)**: Unit pemanen energi berefisiensi tinggi yang menghasilkan **2–5 Joule** (Watt-detik) per langkah, dengan output puncak **7W**.
-2.  **Dasbor Visual Langsung**: Pemantauan waktu nyata "Total Kredit Karbon" yang dihasilkan oleh komunitas lokal.
-3.  **Integrasi TENG (Fase 2)**: Berkolaborasi dengan **NCKU Hi-GEM Center** untuk mengintegrasikan Triboelectric Nanogenerators (30V+) untuk pemeliharaan IoT berdaya rendah.
+Mengubah setiap permukaan perkotaan menjadi generator, menjadikan cittadini kontributor aktif bagi kolam energi nasional.
 
-## 3. Model Bisnis
-- **Proposisi Nilai**: Menawarkan sektor publik sebuah demonstrator keterlibatan tinggi untuk transisi kota cerdas.
-- **Aliran Pendapatan**:
-    - **B2G (Pengadaan)**: Biaya instalasi infrastruktur kota cerdas.
-    - **B2B (Sewa)**: Daya dinding iklan untuk mal (misalnya, SOGO, Shin-Kong) untuk memamerkan inisiatif CSR.
-- **Struktur Biaya**: Cetakan untuk pengubinan, modul induksi EM, dan pengembangan UI digital.
+### Solusi: Ubin Kinetik
+1. **Unit Induksi Elektromagnetik**: Ubin lantai modular menggunakan induksi efisiensi tinggi untuk menghasilkan **2–5 Joule** per pijakan kaki. Output puncak mencapai **7W**, dioptimalkan untuk "titik sesak" (choke points) dengan lalu lintas tinggi.
+2. **Dashboard Langsung Komunitas**: Layar berbasis IoT yang menampilkan "Total Carbon Offset" (pengimbangan karbon total) dan "Langkah Komunitas" secara waktu nyata, menggabungkan elemen permainan (gamification) pada transportasi publik.
+3. **Penyimpanan Cerdas**: Kapasitor super terintegrasi yang menyangga energi selama jam sibuk untuk pencahayaan darurat atau port pengisian daya ponsel cerdas publik.
 
-## 4. Inovasi & Keunikan
-- **Keberlanjutan yang Terlihat**: Berbeda dengan panel surya atap, ubin kinetik bersifat interaktif, memungkinkan warga untuk berpartisipasi dalam pembangkitan energi hijau secara langsung.
-- **Desain Modular Perawatan Rendah**: Ubin individu dapat diganti tanpa membongkar seluruh lantai.
+## 📊 3. Model Bisnis & Inovasi
 
-## 5. Dampak Sosial yang Diharapkan
-- **Penghematan Energi**: Perkiraan pasokan pencahayaan darurat 10% dalam pilot Stasiun Utama Taipei.
-- **Keterlibatan Publik**: Menghubungkan jumlah langkah dengan poin hadiah "EasyCard" (khusus Taiwan) untuk mendorong berjalan kaki dan transit netral karbon.
+### Proposisi Nilai
+- **Untuk Pemerintah**: Alat keterlibatan publik berbiaya rendah untuk pelaporan ESG dan pendidikan keberlanjutan.
+- **Untuk Sektor Swasta**: Visibilitas tampilan iklan (Sogo/Shin-Kong Mitsukoshi) yang didukung oleh energi berjalan pelanggan sendiri.
 
-## 6. Perencanaan Keberlanjutan Finansial
-- **Pendanaan Awal**: Mencari modal ventura perusahaan sosial dan hibah pemerintah "Smart City."
-- **Jangka Menengah-Panjang**: Memanfaatkan "Big Data" (peta panas lalu lintas pejalan kaki) untuk memberikan konsultasi pemilihan lokasi toko cerdas.
-- **Prakiraan 5 Tahun**: Kematangan teknis dan ROI penuh diproyeksikan pada Tahun ke-4.
+### 💡 Inovasi Teknologi & Sosial
+- **Integrasi TENG (Fase 2)**: Berkolaborasi dengan laboratorium akademik Taiwan (misalnya, NCKU Hi-GEM) untuk mengintegrasikan Triboelectric Nanogenerators (摩擦電奈米發電機) untuk memanen getaran kecil.
+- **Hadiah EasyCard**: Memetakan jumlah langkah ke token atau poin diskon EasyCard (悠遊卡), memberikan insentif bagi pergerakan netral karbon.
 
-## 7. Sumber Daya Manusia & Tim
-- **Ketua Proyek / Steven Tanardi**: Pengembangan strategi, manajemen portofolio paten, dan koordinasi keuangan hijau.
-- **Insinyur Perangkat Keras**: Berfokus pada efisiensi modul elektromagnetik.
-- **Hubungan Masyarakat & UX**: Merancang dasbor interaktif dan kampanye keterlibatan warga.
+## 🌍 4. Penyelarasan SDG & Dampak
+
+| SDG | Tujuan | Implementasi |
+| :---: | :--- | :--- |
+| **7** | **Energi Bersih & Terjangkau** | Memanen energi terdesentralisasi di pusat perkotaan. |
+| **9** | **Industri, Inovasi & Infrastruktur** | Membangun komponen infrastruktur kota cerdas. |
+| **11** | **Kota & Pemukiman Berkelanjutan** | Menciptakan hub transit rendah karbon yang interaktif. |
+
+---
+
+## 📈 5. Keberlanjutan Finansial & Strategis
+
+### Peta Jalan Strategis
+- **Tahun 1**: Penyebaran percontohan 10-ubin di stasiun MRT Taipei (misalnya, Zhongxiao Fuxing).
+- **Tahun 2**: Ekspansi B2B ke pintu masuk department store dan lobi hotel besar.
+- **Tahun 5**: Integrasi ke 30% node transit utama Taiwan, menargetkan pengimbangan tahunan agregat yang setara dengan **5.000 rumah.**
+
+---
+### 🛠️ Tim
+- **Steven Tanardi (Ketua Proyek)**: Strategi, Sistem Desain, Kemitraan Strategis.
+- **Dukungan Teknik**: Spesialis mekatronika yang berfokus pada modul EM yang tahan lama.
 
 ---
 © 2026 Steven Tanardi. Hak Cipta Dilindungi Undang-Undang.
