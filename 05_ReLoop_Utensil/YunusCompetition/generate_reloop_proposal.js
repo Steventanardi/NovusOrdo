@@ -99,7 +99,7 @@ const buildCHContent = () => [
   makeText("我們提供「餐具即服務 (UaaS)」模式，透過 Airtight CPET 耐用餐具與智慧歸還網絡，徹底取代一次性包材。", { font: FONT_CH }),
 
   makeHeading("三、計畫可行性及其商業模式 (BMC)", HeadingLevel.HEADING_1, FONT_CH),
-  makeText("核心商業模式為「服務費制」。下表顯示 ReLoop 在小規模試點與大規模運作下，皆能為學餐節省成本：", { font: FONT_CH }),
+  makeText("核心商業模式為「服務費制」。本計畫透過與校方達成「零租金合作」，利用校內閒置空間進行清洗與儲存，以換取校方垃圾處理成本的降低。", { font: FONT_CH }),
   makeTable(
     ["日服務量", "一次性餐盒總成本", "ReLoop 服務成本", "每日節省額"],
     [
@@ -117,7 +117,7 @@ const buildCHContent = () => [
   makeText("預計年減 30,000+ 一次性餐盒，減少 1,950kg 二氧化碳。並優先聘任經濟弱勢學生，落實尤努斯零貧窮與零失業願景。", { font: FONT_CH }),
 
   makeHeading("六、財務永續性規劃", HeadingLevel.HEADING_1, FONT_CH),
-  makeText("Phase 0 試點預計內部報酬率 (IRR) 達 42%，淨現值 (NPV) 為正值。財務體質健全，具備跨校複製潛力。", { font: FONT_CH }),
+  makeText("Phase 0 試點在保守估計下（時薪 NT$196，每日 2 小時工時），內部報酬率 (IRR) 達 42%，預計 1.2 年內達成盈虧平衡。財務體質健全，具備跨校複製潛力。", { font: FONT_CH }),
 
   makeHeading("七、人力規畫", HeadingLevel.HEADING_1, FONT_CH),
   makeText("負責人：Steven Tanardi 負責策略與財務學面。另設有技術總監負責 IoT 系統，及營運主管負責物流行動。", { font: FONT_CH }),
@@ -143,7 +143,7 @@ const buildENContent = () => [
   makeText("We provide a UaaS model using airtight CPET containers and a smart return network to replace disposables.", { font: FONT_EN }),
 
   makeHeading("3. Business Model & Feasibility", HeadingLevel.HEADING_1, FONT_EN),
-  makeText("Our dual-scale model ensures immediate feasibility and future scalability:", { font: FONT_EN }),
+  makeText("ReLoop utilizes an 'Institutional Partnership' model, securing rent-free space from the University in exchange for reducing campus-wide waste disposal costs.", { font: FONT_EN }),
   makeTable(
     ["Servings / Day", "Disposable (Total)", "ReLoop (Total)", "Savings / Day"],
     [
@@ -161,7 +161,7 @@ const buildENContent = () => [
   makeText("Projected savings of 30,000+ units annually. Addressing Yunus's Zero Poverty & Zero Unemployment by hiring local disadvantaged students.", { font: FONT_EN }),
 
   makeHeading("6. Financial Sustainability", HeadingLevel.HEADING_1, FONT_EN),
-  makeText("Phase 0 IRR predicted at 42%. Net Present Value (NPV) remains positive, proving strong financial resilience.", { font: FONT_EN }),
+  makeText("Phase 0 IRR is predicted at 42%, with a 1.2-year payback period based on professional labor rates (NT$196/hr). Net Present Value (NPV) remains positive, proving strong financial resilience.", { font: FONT_EN }),
 
   makeHeading("7. HR Planning", HeadingLevel.HEADING_1, FONT_EN),
   makeText("Lead: Steven Tanardi (Strategy/Finance). Tech: IoT and Backend lead. Ops: Logistics fleet manager.", { font: FONT_EN }),
@@ -205,7 +205,7 @@ const buildIDContent = () => [
   makeText("Menghindari 30.000+ kotak sekali pakai per tahun. Fokus pada visi 3-Zero Yunus dengan mempekerjakan mahasiswa kurang mampu.", { font: FONT_EN }),
 
   makeHeading("6. Keberlanjutan Keuangan", HeadingLevel.HEADING_1, FONT_EN),
-  makeText("Internal Rate of Return (IRR) sebesar 42%. Strategi ekspansi bertahap dari Fase 0 ke Fase 1.", { font: FONT_EN }),
+  makeText("Internal Rate of Return (IRR) sebesar 42% dengan periode balik modal 1,2 tahun menggunakan standar upah NT$196/jam. Strategi ekspansi bertahap dari Fase 0 ke Fase 1.", { font: FONT_EN }),
 
   makeHeading("7. Rencana Sumber Daya Manusia (HR)", HeadingLevel.HEADING_1, FONT_EN),
   makeText("Lead: Steven Tanardi (Strategi/Keuangan). Tim Teknologi: Pengembangan IoT/LINE. Operasional: Manajemen logistik.", { font: FONT_EN }),

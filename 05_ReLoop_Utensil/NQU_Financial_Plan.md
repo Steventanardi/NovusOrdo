@@ -34,15 +34,15 @@ Estimated cost for a standard takeout set (Paper box + lid + chopsticks + spoon 
 ### B. Operating Cost per Use (OPEX)
 | Expense Category | Cost (NTD) | Small-Scale Optimization |
 | :--- | :--- | :--- |
-| **Labor (1hr/day)** | 1.90 | 1 student intern @ NT$190/hr. |
+| **Labor (2hr/day)** | 3.92 | 1 student @ NT$196/hr (Buffering for logistics). |
 | **Sanitization** | 0.60 | Electricity & eco-detergent. |
 | **Replacement (1%)** | 1.20 | Higher conservative buffer. |
-| **Total per Meal** | **3.70** | Slightly above trash cost (NT$3.50). |
+| **Total per Meal** | **5.72** | Competitive with high-end disposables ($4-6). |
 
 > [!NOTE] 
 > **The Yunus Social Business Pivot (Phase 0)**:
-> By charging a **NT$10 "Eco-Service Surcharge"**, we generate **NT$630 net profit/day**.
-> **Payback Period**: 68,000 / 630 = **107 Days.**
+> By charging a **NT$10 "Eco-Service Surcharge"**, we generate **NT$128 net profit/day**.
+> **Payback Period**: 68,000 / 128 ≈ **531 Days (1.5 Years).**
 
 ---
 
