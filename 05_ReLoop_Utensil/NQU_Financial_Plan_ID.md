@@ -63,6 +63,22 @@ Berdasarkan logistik dan standar pencucian industri dari studi Huang et al. (`Id
 
 ---
 
+## 🛡️ Pengendalian Mutu Operasional & Manajemen Aset
+
+### 1. Menjaga Sterilitas (Aturan 72 Jam)
+Jika stok bersih (misalnya 700 unit) tidak segera digunakan:
+*   **FIFO (First-In, First-Out)**: Selalu gunakan stok "bersih" tertua terlebih dahulu untuk memastikan rotasi.
+*   **Penyimpanan Tersterilisasi**: Wadah disimpan dalam **lemari UV-C** tertutup atau wadah kedap debu setelah kering.
+*   **Sterilisasi Ulang**: Unit apa pun yang tidak digunakan dalam waktu 72 jam wajib menjalani "Bilas Sterilisasi" 5 menit di mesin cuci piring suhu tinggi sebelum digunakan kembali.
+
+### 2. Melacak Masa Pakai Aset (Pencatatan RFID/QR)
+Bagaimana mengetahui kapan wadah sudah terlalu tua?
+*   **Aturan "Scan pada Siklus"**: Setiap wadah memiliki **kode QR unik** atau **tag RFID** tertanam.
+*   **Penghitung Pemakaian**: Setiap kali wadah dipindai di mesin cuci piring, sistem menambah "Jumlah Pemakaian" di Database ReLoop.
+*   **Pensiun Otomatis**: Ketika unit mencapai **400 pemakaian**, sistem menandai untuk inspeksi visual wajib. Pada **500 pemakaian**, unit otomatis dipensiunkan dan dikirim ke **loop daur ulang plastik berbantu BSF** (melengkapi sirkularitas).
+
+---
+
 ## 🚀 Rencana Pilot Skala Kecil NQU (Fase 1)
 
 **Target Jangkauan**: 300 porsi/hari (fokus di Kantin Mahasiswa NQU B1).

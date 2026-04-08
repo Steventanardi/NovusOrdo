@@ -88,6 +88,22 @@ Instead of charging for each use, students pay a **NT$200 semester deposit**.
 
 ---
 
+## 🛡️ Operational Quality Control & Asset Management
+
+### 1. Maintaining Sterility (The 72-Hour Rule)
+If clean inventory (e.g., 700 units) is not used immediately:
+*   **FIFO (First-In, First-Out)**: Always use the oldest "clean" stock first to ensure rotation.
+*   **Sanitized Storage**: Containers are stored in enclosed **UV-C cabinets** or sealed, dust-proof bins once dry.
+*   **Re-Sanitization**: Any unit not used within 72 hours must undergo a 5-minute "Sanitization Rinse" in the high-heat dishwasher before being served.
+
+### 2. Tracking Asset Lifespan (RFID/QR Logging)
+How to know when a container is too old?
+*   **The "Scan on Cycle" Rule**: Every container has a laser-etched **unique QR code** or embedded **RFID tag**.
+*   **Usage Counter**: Each time a container is scanned at the dishwasher, the system increments its "Use Count" in the ReLoop Database.
+*   **Auto-Decommission**: When a unit reaches **400 uses**, the system flags it for mandatory visual inspection. At **500 uses**, it is automatically retired and sent to a **BSF-assisted plastic recycling loop** (completing the circularity).
+
+---
+
 ### 📝 Next Steps
 1.  **Draft MOU**: Secure agreement with NQU General Affairs Office (總務處) to pilot in Canteen B1.
 2.  **Procurement**: Select hardware for the QR-coded collection bins.
