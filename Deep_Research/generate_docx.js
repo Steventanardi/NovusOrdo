@@ -290,46 +290,54 @@ const buildIDContent = () => [
           children: [
             new TextRun({ text: "Disusun oleh: ", bold: true, size: 22 }),
             new TextRun({ text: "Steven Tanardi", size: 22, color: COLORS.primary }),
-            new TextRun({ text: "  |  April 2026", size: 22, color: COLORS.subtleGray }),
+            new TextRun({ text: "  |  April 2026  |  Diperbarui: 8 Apr 2026", size: 22, color: COLORS.subtleGray }),
           ],
           alignment: AlignmentType.CENTER, spacing: { after: 200 },
         }),
         makePageBreak(),
+
+        // ─── CRITICAL POLICY ALERT ───────────────────────────────
         makeHeading1("KATALIS KEBIJAKAN KRITIS: Larangan Pakan Babi 2027 (Demam Babi Afrika)"),
-        makeQuote("Bagian ini mendokumentasikan perkembangan regulasi terpenting yang secara langsung menciptakan peluang pasar untuk Bio-Loop BSF."),
+        makeQuote(
+          "PERINGATAN: Bagian ini mendokumentasikan perkembangan regulasi terpenting yang menciptakan peluang pasar bagi Bio-Loop BSF. Dikonfirmasi oleh berbagai sumber resmi pemerintah Taiwan."
+        ),
         makeHeading2("Pemicu: Wabah Demam Babi Afrika Oktober 2025"),
-        makeParagraph("Pada Oktober 2025, Taiwan mengalami wabah Demam Babi Afrika (ASF). Investigasi pemerintah menelusuri sumber langsung ke limbah dapur yang tidak disterilkan (廚餘) yang diberikan ke babi di peternakan komersial. ASF adalah penyakit virus yang sangat menular tanpa obat dan tingkat kematian mendekati 100% pada babi."),
+        makeParagraph(
+          "Pada Oktober 2025, Taiwan mengalami wabah Demam Babi Afrika (ASF). Investigasi pemerintah menelusuri sumber langsung ke sisa makanan dapur (廚餘) yang tidak disterilkan yang diberikan pada babi di peternakan komersial. ASF adalah penyakit virus yang sangat menular tanpa obat dan tingkat kematian mendekati 100% pada babi."
+        ),
         makeHeading3("Jadwal Larangan Nasional Bertahap"),
         makeTable(
-          ["Fase", "Waktu", "Aturan"],
+          ["Fase", "Jadwal", "Aturan"],
           [
-            ["Fase 1 — Segera", "1 Jan 2026", "Limbah dapur rumah tangga langsung dilarang sebagai pakan babi"],
-            ["Fase 2 — Diatur", "Sepanjang 2026", "Limbah makanan bisnis hanya dengan: perlakuan panas + CCTV + GPS + persetujuan pemerintah"],
-            ["Fase 3 — LARANGAN PENUH", "1 Jan 2027", "SEMUA limbah makanan sebagai pakan babi dilarang total"],
+            ["Fase 1 — Segera", "1 Jan 2026", "Limbah dapur rumah tangga (家戶廚餘) langsung dilarang sebagai pakan babi"],
+            ["Fase 2 — Diatur", "Sepanjang 2026", "Limbah makanan bisnis hanya dengan: perlakuan panas + CCTV real-time + GPS + persetujuan pemerintah"],
+            ["Fase 3 — LARANGAN PENUH", "1 Jan 2027", "SEMUA limbah makanan sebagai pakan babi dilarang total tanpa pengecualian"],
           ],
           "C0392B"
         ),
-        makeSpacer(100),
-        makeHeading2("Kekosongan: 731 Ton/Hari Limbah Makanan Terlantar"),
+        makeSpacer(120),
+        makeHeading2("Kekosongan: 731 Ton/Hari Limbah Makanan 'Yatim Piatu'"),
         makeTable(
           ["Aliran Limbah Makanan", "Volume Harian", "Tujuan Setelah 2027"],
           [
-            ["Total limbah makanan Taiwan", "2.115 ton/hari", "Perlu pemrosesan"],
+            ["Total limbah makanan di Taiwan", "2.115 ton/hari", "Butuh pemrosesan"],
             ["Sebelumnya diserap peternakan babi", "~731 ton/hari", "DILARANG — butuh solusi baru"],
             ["Ditangani fasilitas daur ulang", "~1.100 ton/hari", "Kompos/biogas"],
-            ["Menuju insinerasi/TPA", "~284 ton/hari", "Target eliminasi sebelum 2028"],
+            ["Menuju insinerasi/TPA", "~284 ton/hari", "Target eliminasi 2028"],
           ]
         ),
         makeSpacer(80),
-        makeQuote("731 ton/hari inilah celah pasarnya. Ini adalah limbah makanan yang sebelumnya diproses, menguntungkan, dan kini tiba-tiba tidak memiliki tempat. BSF Bio-Hub kami adalah solusinya."),
+        makeQuote(
+          "731 ton/hari inilah celah pasarnya. Ini adalah limbah makanan yang sebelumnya menguntungkan dan kini tidak memiliki tempat. BSF Bio-Hub adalah jawabannya."
+        ),
         makeHeading2("Empat Alternatif Resmi Pemerintah Taiwan"),
         makeTable(
           ["#", "Jalur Resmi", "Skala", "Output Nilai"],
           [
-            ["1", "Pengomposan (堆肥)", "Besar, pedesaan", "Pupuk organik"],
+            ["1", "Pengomposan (堆肥)", "Skala besar, pedesaan", "Pupuk organik"],
             ["2", "Bioenergi / Pencernaan Anaerobik", "Skala pabrik", "Biogas + listrik"],
             ["3 ★", "Budidaya Lalat Tentara Hitam (黑水虻)", "Terdesentralisasi, PERKOTAAN", "Protein + Pupuk — NILAI TERTINGGI"],
-            ["4", "Insinerasi", "Pilihan terakhir", "Energi saja"],
+            ["4", "Insinerasi (焚化)", "Opsi terakhir", "Energi saja"],
           ],
           COLORS.accent
         ),
@@ -339,6 +347,7 @@ const buildIDContent = () => [
         makeParagraph("Dokumen ini merupakan ringkasan DOCX dari Ringkasan Riset Mendalam — Versi Bahasa Indonesia."),
         makeParagraph("File referensi lengkap: Deep_Research_Summary_ID.md"),
 ];
+
 
 const buildCHContent = () => [
         makeSpacer(400),
@@ -359,50 +368,61 @@ const buildCHContent = () => [
           children: [
             new TextRun({ text: "撰寫者：", bold: true, size: 22 }),
             new TextRun({ text: "Steven Tanardi", size: 22, color: COLORS.primary }),
-            new TextRun({ text: "  ｜  2026 年 4 月", size: 22, color: COLORS.subtleGray }),
+            new TextRun({ text: "  ｜  2026 年 4 月  ｜  更新：4月8日", size: 22, color: COLORS.subtleGray }),
           ],
           alignment: AlignmentType.CENTER, spacing: { after: 200 },
         }),
         makePageBreak(),
+
+        // ─── CRITICAL POLICY ALERT ───────────────────────────────
         makeHeading1("關鍵政策催化劑：台灣 2027 年廚餘養豬禁令（非洲豬瘟）"),
-        makeQuote("本節記錄直接創造 BSF Bio-Loop 市場機會的最重要監管進展，已由台灣多個官方政府來源於 2025-2026 年確認。"),
+        makeQuote(
+          "警告：本節記錄了直接創造 BSF Bio-Loop 市場機會的最重要監管進展。已由台灣多個官方政府來源於 2025-2026 年確認。"
+        ),
         makeHeading2("導火線：2025 年 10 月非洲豬瘟疫情"),
-        makeParagraph("2025 年 10 月，台灣爆發非洲豬瘟（ASF）疫情。政府調查將病源直接追溯至商業農場使用未經高溫滅菌的廚餘（廚餘）餵豬。ASF 是高度傳染性病毒性疾病，無解藥，豬隻死亡率近 100%，對台灣豬肉產業構成災難性威脅。"),
+        makeParagraph(
+          "2025 年 10 月，台灣爆發非洲豬瘟 (ASF) 疫情。政府調查將感染源直接追溯至商業農場使用未經高溫滅菌的廚餘 (廚餘) 餵豬。非洲豬瘟是一種致命性高且無解藥的病毒性疾病，對台灣養豬業構成災難性風險。"
+        ),
         makeHeading3("分階段全國禁令時間表"),
         makeTable(
-          ["階段", "時間", "規定"],
+          ["階段", "時間點", "規定內容"],
           [
-            ["第一階段 — 立即實施", "2026 年 1 月 1 日", "家戶廚餘立即禁止作為豬飼料"],
-            ["第二階段 — 有條件開放", "2026 年全年", "事業廚餘須符合：高溫處理 + 即時CCTV + GPS追蹤 + 地方政府同意"],
-            ["第三階段 — 全面禁止", "2027 年 1 月 1 日", "所有廚餘作為豬飼料全面禁止，不得例外"],
+            ["第一階段 — 立即實施", "2026 年 1 月 1 日", "家戶廚餘立即禁止用於餵豬"],
+            ["第二階段 — 納管階段", "2026 年全年", "事業廚餘須具備熱處理＋視訊即時監控＋GPS追蹤＋地方政府核准"],
+            ["第三階段 — 全面禁絕", "2027 年 1 月 1 日", "全面禁止使用任何廚餘餵豬，不得例外"],
           ],
           "C0392B"
         ),
-        makeSpacer(100),
+        makeSpacer(120),
         makeHeading2("市場真空：每日 731 公噸的孤兒廚餘"),
         makeTable(
           ["廚餘流向", "每日量", "2027 年後去向"],
           [
             ["台灣每日廚餘總產生量", "2,115 公噸/日", "需要處理途徑"],
-            ["過往由養豬場吸收", "約 731 公噸/日", "禁止 — 急需新方案"],
+            ["過往由養豬場吸收", "約 731 公噸/日", "禁止 — 迫切需要替代方案"],
             ["目前由回收設施處理", "約 1,100 公噸/日", "堆肥/沼氣"],
             ["目前流向焚化/掩埋", "約 284 公噸/日", "2028 年前目標消除"],
           ]
         ),
         makeSpacer(80),
-        makeQuote("這 731 公噸/日就是市場缺口。這些廚餘過去有人要、有利可圖，現在卻突然無處可去。我們的 BSF 生物樞紐正是這個問題的解答。"),
+        makeQuote(
+          "這 731 公噸/日就是市場缺口。這些廚餘過去有利可圖，現在卻突然無處可去。我們的 BSF 生物樞紐正是這個問題的解答。"
+        ),
         makeHeading2("台灣政府四大官方替代方案"),
         makeTable(
           ["#", "官方途徑", "規模", "產值輸出"],
           [
-            ["1", "堆肥（堆肥）", "大規模、農村", "有機肥料"],
-            ["2", "生質能源/厭氧消化（能源化/沼氣）", "廠房規模", "沼氣 + 電力"],
-            ["3 ★", "黑水虻養殖", "去中心化、都市型", "蛋白質 + 有機肥 — 最高價值"],
-            ["4", "焚化（焚化）", "最後手段", "僅有能源"],
+            ["1", "堆肥 (堆肥)", "大規模、農村", "有機肥料"],
+            ["2", "生質能源 / 厭氧消化 (沼氣)", "廠房規模", "沼氣 + 電力"],
+            ["3 ★", "黑水虻養殖 (黑水虻養殖)", "去中心化、都市型", "蛋白質 + 有機肥 — 最高價值"],
+            ["4", "焚化 (焚化)", "最後手段", "僅有熱能"],
           ],
           COLORS.accent
         ),
-        makeQuote("黑水虻已被台灣環境部正式列名為廚餘替代處理方案。這不是新創公司的假設——這是政府已驗證、積極支持的技術。"),
+        makeSpacer(80),
+        makeQuote(
+          "黑水虻已被台灣環境部正式列名為廚餘替代處理方案。這是政府已驗證、積極支持的技術與補助目標。"
+        ),
         makePageBreak(),
         makeHeading1("如需完整繁體中文版報告，請參閱：Deep_Research_Summary_CH.md"),
         makeParagraph("本 DOCX 文件為深度研究摘要之繁體中文版概要。"),
