@@ -1,0 +1,6 @@
+# Research Papers and PDFs (Copyrighted Material)
+**/Identifying.pdf
+**/*.pdf
+Deep_Research/*.docx
+Deep_Research/*.pdf
+node_modules/

@@ -32,18 +32,19 @@ For a 1,000-meal-per-day operation, we need a buffer of 2,500 units (circulation
 | :--- | :--- | :--- |
 | Reusable Container Set | 120 | 300,000 |
 | Stainless Steel Utensil Set | 30 | 75,000 |
+| Industrial Dishwasher (Sterilization Grade) | 120,000 | 120,000 |
 | Smart Collection Cabinets (2) | 45,000 | 90,000 |
-| **Total Initial CAPEX** | | **465,000** |
+| **Total Initial CAPEX** | | **585,000** |
 
 #### B. Operating Cost per Use (OPEX)
 Based on logistics and industrial cleaning standards from the Huang et al. study (`Identifying.pdf`).
 
 | Expense Category | Cost (NTD) | Logic |
 | :--- | :--- | :--- |
-| Industrial Washing & Drying | 0.80 | Electricity (0.044kWh) + Water (0.65L) + Detergent |
-| Labor (Collection & Loading) | 0.70 | Part-time student labor (NQU USR program) |
+| **Sterilization (Heat + Chem)** | **1.10** | **Electricity (0.044kWh) @ 82°C** + Water + Sanitizer |
+| Labor (Collection & Machine Loading) | 0.70 | Part-time student labor (NQU USR program) |
 | Loss/Replacement Fund | 0.40 | 1% loss rate per cycle |
-| **Total per Meal** | **1.90** | **Saves NT$1.60 per meal vs. single-use** |
+| **Total per Meal** | **2.20** | **Total savings: NT$1.30 per meal** |
 
 **Daily Cost (1,000 meals): NT$ 1,900**  
 **Annual Cost (300 days): NT$ 570,000 (+ CAPEX)**
@@ -52,13 +53,13 @@ Based on logistics and industrial cleaning standards from the Huang et al. study
 
 ## 📈 Break-Even Analysis
 
-*   **Savings per Meal**: NT$ 3.50 (Single-use) - NT$ 1.90 (OPEX) = **NT$ 1.60 savings**.
-*   **Total CAPEX to Recover**: NT$ 465,000.
-*   **Break-even Meals**: 465,000 / 1.60 = **290,625 meals**.
-*   **Time to Break-even (at 1,000 meals/day)**: **291 Days** (~1 Academic Year).
+*   **Savings per Meal**: NT$ 3.50 (Single-use) - NT$ 2.20 (Safe OPEX) = **NT$ 1.30 savings**.
+*   **Total CAPEX to Recover**: NT$ 585,000 (Includes Dishwasher).
+*   **Break-even Meals**: 585,000 / 1.30 = **450,000 meals**.
+*   **Time to Break-even (at 1,000 meals/day)**: **450 Days** (~1.5 Academic Years).
 
-> [!TIP]
-> **Carbon Break-even**: According to the `Identifying.pdf` study, the system balances its carbon footprint against single-use alternatives after just **27 reuses**. At 1,000 meals/day, the planet starts "winning" in less than a month.
+> [!IMPORTANT]
+> **Sterilization standard**: To meet food safety regulations for reusables, the system must utilize a high-heat final rinse (82°C / 180°F) or a chemical sanitizer. The `Identifying.pdf` study notes that the **cleaning/disinfection stage** is the largest energy hotspot (51.7% of operational carbon), but is mandatory for user trust and safety.
 
 ---
 
