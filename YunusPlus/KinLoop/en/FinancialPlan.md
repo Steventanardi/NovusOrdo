@@ -14,24 +14,25 @@ This plan assumes 1,000 circulations per month in the Houpu District.
 ## 2. Monthly Working Capital (OpEx)
 | Item | Cost (NTD) | Description |
 | :--- | :--- | :--- |
-| **Washing Staff** | 45,000 | 1 part-time manager + 1 disadvantaged staff. |
+| **Washing Staff** | 45,000 | 1 manager + 3 part-time disadvantaged staff. |
 | **Logistics (E-Scooter)** | 5,000 | Battery swaps and maintenance. |
 | **Utilities & Soap** | 8,000 | High-temp water and eco-detergent. |
-| **Replacement Buffer** | 5,000 | Covering the expected 5% monthly cup loss. |
-| **Total** | **63,000** | |
+| **Replacement Buffer** | 3,000 | Reduced to 3% due to high-return design. |
+| **Nudge Rewards** | 4,000 | Funding for local snack vouchers & stamps. |
+| **Total** | **65,000** | |
 
 ## 3. Revenue Projections (Realistic)
 | Item | Revenue (NTD) | Logic |
 | :--- | :--- | :--- |
-| **Service Fee (Shops)** | 25,000 | 10,000 uses/month @ 2.5 NTD. (Lower than shop cup cost). |
-| **Souvenir Sales** | 15,000 | Selling limited edition cups separately. |
+| **Service Fee (Shops)** | 30,000 | 12,000 uses/month @ 2.5 NTD. (Boosted by default nudges). |
+| **Souvenir Sales** | 20,000 | Selling limited edition cups separately. |
 | **Brand Sponsorship** | 25,000 | Local branding on cups or LINE system. |
-| **Total** | **65,000** | |
+| **Total** | **75,000** | |
 
 ## 4. Short-term Sustainability
-- **Monthly Net**: +2,000 NTD.
-- **Sustainability Strategy**: The model is "lean." We don't aim for high profit but for **Self-Sufficiency.** 
+- **Monthly Net**: +10,000 NTD.
+- **Sustainability Strategy**: The model uses **Incentive-Driven Loyalty.** Higher return rates (target 97%) lower the replacement cost, while nudges increase total circulation volume.
 - **Scale Up**: Expansion to the Airport and Pier will significantly increase volume, dropping the per-cup washing cost by 40% due to economies of scale.
-- **Social Impact**: Zero dividend strategy. Profits fund "Beach Cleanup" educational workshops for local schools.
+- **Social Impact**: Zero dividend strategy. Profits fund local community kitchen and "Beach Cleanup" educational workshops.
 ---
 *Note: Prize money from the Yunus Award would be used to build a "Mobile Washing Van" to service remote tourist spots in Kinmen.*
