@@ -72,4 +72,19 @@ Untuk mencegah wadah menumpuk di kamar asrama:
 3.  **Hold 72 Jam**: Deposit NT$150 ditahan sementara. Ini memastikan pengguna memprioritaskan pengembalian kotak saat perjalanan ke kelas berikutnya.
 
 ---
+
+## 🛡️ Mekanisme Anti-Gagal & Pemulihan Aset (Perlindungan Aset)
+
+Untuk mencegah "Kebocoran Internal" wadah, mekanisme berikut diaktifkan:
+
+1.  **Pagar Finansial (Sita 72 Jam)**:
+    *   Setiap pemindaian wadah yang tidak "Ditutup" oleh pemindaian pengembalian di Bak Eco-Bin dalam waktu 72 jam akan memicu **penyitaan deposit NT$150**. Dana ini digunakan untuk membeli unit pengganti.
+2.  **Penyelamatan "Trash-Scanner"**:
+    *   Integrasi dengan **Proyek 03 (AI Trash Scanner)**. Jika kotak ReLoop dibuang ke sampah umum, pemindai akan menandai ID dan memberi tahu tim logistik untuk pemulihan segera.
+3.  **Hadiah "Penyelamatan" Komunitas**:
+    *   Mahasiswa yang menemukan dan mengembalikan wadah yang "Terdampar" (tertinggal di meja atau di bak sampah biasa) akan menerima **kredit Eco-Karma 2 NTD** via LINE Pay.
+4.  **Penangguhan Keanggotaan**:
+    *   Pengguna yang kronis "menghilangkan" wadah akan ditangguhkan sementara dari sistem untuk menjaga integritas siklus sirkular.
+
+---
 *Alur kerja operasional dioptimalkan untuk National Quemoy University (NQU) - Fase 0 & 1.*
