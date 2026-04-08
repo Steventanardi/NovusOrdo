@@ -8,16 +8,18 @@ ReLoop converts this waste into a circular service provided at **NT$4 per servin
 
 ---
 
-## 2. Financial Breakdown (Per 1,000 Servings)
+## 2. Financial Breakdown: Dual-Scale Model
 
-| Expense Item | **Disposable (Single-Use)** | **ReLoop (Circular)** | **Notes / Logic** |
+This table compares the daily operational costs across two project phases: **Phase 0 (NQU Pilot)** and **Phase 1 (Full Campus Scale)**.
+
+| Scale (Servings/Day) | **Disposable (Total Cost)** | **ReLoop (Total Cost)** | **Daily Savings** |
 | :--- | :--- | :--- | :--- |
-| **Unit Procurement** | NT$5,000 | **NT$4,000** | Avg $5 vs. ReLoop fixed service fee. |
-| **Waste Removal Fee** | NT$240 | **NT$0** | Business waste fee (~NT$4/kg). |
-| **Storage/Real Estate** | NT$150 | **NT$20** | Disposables take up 8x more warehouse space. |
-| **Labor (Folding/Prep)**| NT$300 | **NT$50** | ReLoop boxes are ready-to-use, no folding. |
-| **Total Daily Cost** | **NT$5,690** | **NT$4,070** | **NT$1,620 Daily Savings** |
-| **Annual Savings** | **NT$1,707,000** | **NT$1,221,000** | **NT$486,000 / Year Saved** |
+| **100 Servings (Pilot)** | NT$520 | **NT$400** | **NT$120** |
+| **500 Servings (Growth)** | NT$2,600 | **NT$2,000** | **NT$600** |
+| **1,000 Servings (Scale)** | NT$5,200 | **NT$4,000** | **NT$1,200** |
+| **Annual (300 Days)** | **NT$1,560,000** | **NT$1,200,000** | **NT$360,000** |
+
+*Note: Calculations based on Avg NT$5.2 for disposable packaging vs. NT$4.0 ReLoop service fee.*
 
 ---
 

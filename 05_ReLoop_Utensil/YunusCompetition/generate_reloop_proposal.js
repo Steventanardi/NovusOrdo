@@ -99,13 +99,13 @@ const buildCHContent = () => [
   makeText("我們提供「餐具即服務 (UaaS)」模式，透過 Airtight CPET 耐用餐具與智慧歸還網絡，徹底取代一次性包材。", { font: FONT_CH }),
 
   makeHeading("三、計畫可行性及其商業模式 (BMC)", HeadingLevel.HEADING_1, FONT_CH),
-  makeText("核心商業模式為「服務費制」。下表顯示 ReLoop 較傳統一次性餐盒節省約 20% 成本：", { font: FONT_CH }),
+  makeText("核心商業模式為「服務費制」。下表顯示 ReLoop 在小規模試點與大規模運作下，皆能為學餐節省成本：", { font: FONT_CH }),
   makeTable(
-    ["成本項目", "一次性餐盒", "ReLoop 服務", "節省比例"],
+    ["日服務量", "一次性餐盒總成本", "ReLoop 服務成本", "每日節省額"],
     [
-      ["採購成本 (每份)", "NT$5.0 (平均)", "NT$4.0 (服務費)", "20% ⬇"],
-      ["垃圾處理費 (每份)", "NT$0.2", "NT$0.0", "100% ⬇"],
-      ["每日總成本 (1,000份)", "NT$5,200", "NT$4,000", "NT$1,200 💰"]
+      ["100 份 (試點)", "NT$520", "NT$400", "NT$120 💰"],
+      ["1,000 份 (規模)", "NT$5,200", "NT$4,000", "NT$1,200 🚀"],
+      ["年節省 (300天)", "NT$1,560,000", "NT$1,200,000", "NT$360,000 🥇"]
     ], FONT_CH
   ),
   makeText("在 NQU 試點（100 份/日）的規模下，每餐運作成本約 NT$3.3，具備高度經濟可行性與財務自給自足能力。", { font: FONT_CH }),
@@ -143,13 +143,13 @@ const buildENContent = () => [
   makeText("We provide a UaaS model using airtight CPET containers and a smart return network to replace disposables.", { font: FONT_EN }),
 
   makeHeading("3. Business Model & Feasibility", HeadingLevel.HEADING_1, FONT_EN),
-  makeText("Our service model reduces canteen costs by ~20%:", { font: FONT_EN }),
+  makeText("Our dual-scale model ensures immediate feasibility and future scalability:", { font: FONT_EN }),
   makeTable(
-    ["Item", "Disposable", "ReLoop Service", "Savings"],
+    ["Servings / Day", "Disposable (Total)", "ReLoop (Total)", "Savings / Day"],
     [
-      ["Procurement / Unit", "NT$5.0 (Avg)", "NT$4.0 (Fee)", "20% ⬇"],
-      ["Waste Fee / Unit", "NT$0.2", "NT$0.0", "100% ⬇"],
-      ["Daily (1k meals)", "NT$5,200", "NT$4,000", "NT$1,200 💰"]
+      ["100 (Pilot)", "NT$520", "NT$400", "NT$120 💰"],
+      ["1,000 (Scale)", "NT$5,200", "NT$4,000", "NT$1,200 🚀"],
+      ["Annual (300d)", "NT$1.56M", "NT$1.2M", "NT$360k 🥇"]
     ]
   ),
   makeText("Phase 0 pilot at NQU shows a 107-day payback period.", { font: FONT_EN }),
@@ -187,7 +187,16 @@ const buildIDContent = () => [
   makeText("Kami menyediakan wadah CPET kedap udara dan jaringan pengembalian pintar asrama.", { font: FONT_EN }),
 
   makeHeading("3. Model Bisnis & Kelayakan", HeadingLevel.HEADING_1, FONT_EN),
-  makeText("Sistem keanggotaan dan biaya vendor B2B memastikan kemandirian finansial Proyek pilot Fase 0 menunjukkan ROI dalam 107 hari.", { font: FONT_EN }),
+  makeText("Model skala ganda kami memastikan kelayakan segera dan skalabilitas masa depan:", { font: FONT_EN }),
+  makeTable(
+    ["Porsi / Hari", "Sekali Pakai (Total)", "Layanan ReLoop", "Penghematan Harian"],
+    [
+      ["100 (Uji Coba)", "NT$520", "NT$400", "NT$120 💰"],
+      ["1.000 (Skala)", "NT$5.200", "NT$4.000", "NT$1.200 🚀"],
+      ["Tahunan (300h)", "NT$1,56jt", "NT$1,2jt", "NT$360rb 🥇"]
+    ]
+  ),
+  makeText("Proyek pilot Fase 0 di NQU menunjukkan periode balik modal 107 hari.", { font: FONT_EN }),
 
   makeHeading("4. Inovasi & Keunikan", HeadingLevel.HEADING_1, FONT_EN),
   makeText("Model 'YouBike untuk Bento' dengan sinergi AI Trash Scanner untuk mencegah kehilangan aset bento.", { font: FONT_EN }),
