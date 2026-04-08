@@ -1,85 +1,77 @@
-# 📊 ReLoop Perbandingan Finansial & Rencana Pilot (Skala NQU - 300 Porsi)
+# 📊 Perbandingan Finansial & Rencana Pilot ReLoop (Skala Pilot NQU)
 
-Dokumen ini menyajikan analisis keuangan berbasis data untuk layanan peralatan makan pakai ulang **ReLoop** di **Universitas Nasional Quemoy (NQU)**, yang dioptimalkan untuk pilot 300 porsi per hari.
+Dokumen ini menyediakan analisis finansial berbasis data untuk **ReLoop** di **National Quemoy University (NQU)**. Kami menggunakan **Strategi Pertumbuhan Dua Fase**: dimulai dengan pilot "Ultra-Lean" untuk membuktikan logistik, diikuti oleh ekspansi ke seluruh kampus.
 
 ---
 
 ## ⚖️ Perbandingan Finansial: Sekali Pakai vs. ReLoop
 
 ### 1. Skenario Sekali Pakai (Status Quo)
-Estimasi biaya untuk satu set makanan bawa pulang standar di Taiwan (Kotak kertas + tutup plastik + sumpit kayu + sendok plastik + kantong kertas).
+Estimasi biaya untuk satu set bungkus standar (Kotak kertas + tutup + sumpit + sendok + kantong).
 
-| Item | Biaya (NTD) | Keterangan |
+| Item | Biaya (NTD) | Catatan |
 | :--- | :--- | :--- |
-| Kotak Makan Kertas + Tutup | 2,50 | Harga grosir |
-| Sumpit Kayu (bungkus) | 0,50 | Kualitas standar |
-| Sendok Plastik | 0,30 | Pembelian massal |
-| Kantong Kertas/Plastik | 0,20 | Biaya distribusi |
-| **Total per Porsi** | **3,50** | **100% Sampah** |
-
-**Biaya Harian (300 porsi): NT$ 1.050**  
-**Biaya Tahunan (300 hari): NT$ 315.000**
+| Kotak Makan + Tutup | 2.50 | Harga grosir |
+| Sumpit Kayu (dibungkus) | 0.50 | Standar |
+| Sendok Plastik | 0.30 | Pembelian massal |
+| Kantong Kertas/Plastik | 0.20 | Biaya distribusi |
+| **Total per Porsi** | **3.50** | **100% Sampah** |
 
 ---
 
-### 2. Skenario ReLoop Pakai Ulang (Proyeksi - 300 Unit)
+## 🚀 Fase 0: Pilot "Ultra-Lean" (100 Porsi/Hari)
+*Tujuan: Membuktikan logistik dan sterilisasi dengan investasi minimum.*
 
-#### A. Investasi Awal (CAPEX)
-Untuk 300 porsi/hari, dibutuhkan cadangan 750 unit (sirkulasi + pencucian + penyimpanan).
+### A. Investasi Awal (CAPEX - Bootstrap)
+| Item | Biaya Satuan (NTD) | Total Biaya (NTD) | Alasan |
+| :--- | :--- | :--- | :--- |
+| **Set Reusable (250 unit)** | 120 | 30,000 | Buffer untuk siklus pencucian. |
+| **Mesin Cuci Semi-Komersial**| 25,000 | 25,000 | Sanitasi suhu tinggi. |
+| **Kotak Pengembalian (2 unit)**| 2,500 | 5,000 | Bak "Scan-and-Drop" manual. |
+| **Rak Pengering UV-C** | 8,000 | 8,000 | Alat sertifikasi kebersihan. |
+| **Total CAPEX** | | **68,000** | **Titik masuk risiko rendah.** |
 
-| Item | Biaya Satuan (NTD) | Total Biaya (NTD) |
+### B. Biaya Operasional per Penggunaan (OPEX)
+| Kategori Biaya | Biaya (NTD) | Optimalisasi Skala Kecil |
 | :--- | :--- | :--- |
-| Set Wadah Pakai Ulang | 120 | 90.000 |
-| Set Alat Makan Stainless Steel | 30 | 22.500 |
-| Mesin Cuci Piring Hood Industri | 95.000 | 95.000 |
-| Kabinet Pengumpulan Pintar (2 unit) | 30.000 | 60.000 |
-| **Total CAPEX Awal** | | **267.500** |
+| **Tenaga Kerja (1 jam/hari)**| 1.90 | 1 mahasiswa magang @ NT$190/jam. |
+| **Sanitasi** | 0.60 | Listrik & deterjen ramah lingkungan. |
+| **Penggantian (1%)** | 1.20 | Cadangan konservatif lebih tinggi. |
+| **Total per Porsi** | **3.70** | Sedikit di atas biaya sampah (NT$3.50). |
 
-#### B. Biaya Operasional per Pemakaian (OPEX)
-Dihitung berdasarkan 300 unit/hari menggunakan upah minimum Taiwan dan tarif utilitas.
+> [!NOTE] 
+> **Pivot Bisnis Sosial Yunus (Fase 0)**:
+> Dengan mengenakan **Biaya Layanan Eco sebesar NT$10**, kita menghasilkan **laba bersih NT$630/hari**.
+> **Periode Balik Modal**: 68,000 / 630 = **107 Hari.**
 
+---
+
+## 📈 Fase 1: Ekspansi Kampus (300+ Porsi/Hari)
+*Tujuan: Mencapai skala ekonomi dan integrasi institusional.*
+
+### A. Investasi (CAPEX Inkremental)
+| Item | Biaya (NTD) | Alasan |
+| :--- | :--- | :--- |
+| **Tambahan 500 Unit** | 60,000 | Skala untuk permintaan tinggi. |
+| **Mesin Cuci Industri Hood**| 95,000 | Kecepatan throughput lebih tinggi. |
+| **Lemari Pintar (2)** | 60,000 | Pelacakan & keamanan otomatis. |
+| **Total CAPEX Milestone** | **215,000** | |
+
+### B. Biaya Operasional per Penggunaan (OPEX - Optimal)
 | Kategori Biaya | Biaya (NTD) | Logika |
 | :--- | :--- | :--- |
-| **Sterilisasi (Utilitas)** | **0,40** | Air + Listrik (0,044kWh/unit) |
-| **Sewa (Mini-HUB)** | **0,50** | NT$4.500/bulan untuk area kantin |
-| **Logistik (Cart & LINE)** | **0,10** | Charge cart elektrik + biaya API LINE |
-| **Tenaga Kerja (3jam/hari)** | **1,90** | 3 jam @ NT$190/jam / 300 unit |
-| Dana Kehilangan/Penggantian | 0,40 | Tingkat kehilangan 1% per siklus |
-| **Total per Porsi** | **3,30** | **Hemat NT$0,20 per porsi** |
-
-**Biaya Harian (300 porsi): NT$ 990**  
-**Biaya Tahunan (300 hari): NT$ 297.000 (+ CAPEX)**
+| **Total per Porsi** | **3.30** | **Lebih murah dari Sekali Pakai (NT$3.50).** |
 
 ---
 
-## 📈 Analisis Titik Impas (Break-Even)
+## 🛡️ Manajemen Aset & Kontrol Kualitas (Skala Kecil)
 
-*   **Penghematan per Porsi**: NT$ 3,50 (Sekali pakai) - NT$ 3,30 (OPEX Riil) = **NT$ 0,20 hemat**.
-
-> [!TIP]
-> **Pivot Bisnis Sosial Yunus**: Daripada hanya mengandalkan penghematan biaya, ReLoop mengenakan **Biaya Layanan Eco sebesar NT$10** per porsi. Ini mengubah bisnis menjadi mesin profit tinggi:
-> *   Profit harian bersih dengan Surcharge: **NT$2.010/hari**.
-> *   Waktu untuk Impas: **133 Hari** (Sangat sehat!).
-
----
-
-## 🛡️ Pengendalian Mutu & Manajemen Aset
-
-### 1. Menjaga Sterilitas
-*   **FIFO**: Gunakan stok terlama via pelacakan **LINE Group**.
-*   **Penyimpanan UV-C**: Simpan dalam kabinet tertutup dengan sinar UV-C.
-
-### 2. Melacak Masa Pakai
-*   **Log QR**: Dipindai via **LINE Group Tim ReLoop** saat koleksi.
-*   **Pensiun**: Pada **500 pemakaian**, unit didaur ulang menjadi baki rearing BSF.
+1.  **Pengembalian "Sistem Kehormatan"**: 
+    Mahasiswa memindai kode QR pada kotak sebelum memasukkannya ke bak pengembalian. Bot LINE mengirimkan pesan "Terima Kasih" dan memperbarui **Peringkat Karbon** mereka.
+2.  **Inventaris FIFO**: 
+    Tim pencuci mencatat batch pada catatan **LINE Keep** bersama untuk memastikan tidak ada wadah yang mengendap lebih dari 48 jam tanpa digunakan.
+3.  **Siklus Akhir Hidup**: 
+    Wadah yang rusak dikumpulkan dan dikirim ke proyek **BSF Bio-Loop** untuk digiling menjadi nampak pakan, memastikan nol limbah.
 
 ---
-
-## 🚀 Rencana Pilot NQU (Fase 1)
-
-1.  **Koordinasi LINE Group**: 
-    *   Grup "Logistik ReLoop" (Pekerja) & Grup "Pengguna ReLoop" (Siswa).
-2.  **Sewa Bersama**: Bermitra dengan Himpunan Mahasiswa NQU untuk berbagi ruang kantor guna menekan biaya sewa.
-
----
-*Berdasarkan temuan dari studi Huang et al. 2026.*
+*Berdasarkan temuan dari "Identifying the climate benefits of reusable takeout container systems..." Huang et al. (2026).*
