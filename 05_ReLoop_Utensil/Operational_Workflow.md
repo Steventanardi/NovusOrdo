@@ -72,4 +72,19 @@ To prevent containers from piling up in dorm rooms:
 3.  **72-Hour Hold**: NT$150 deposit is temporarily held. This ensures users prioritize returning takeaway boxes during their next trip to class.
 
 ---
+
+## 🛡️ Anti-Loss & Asset Recovery (Asset Protection)
+
+To prevent the "Internal Leakage" of containers, the following mechanisms are active:
+
+1.  **Financial Guardrail (72h Forfeit)**:
+    *   Any container scan that is not "Closed" by an Eco-Bin return scan within 72 hours triggers a **NT$150 deposit forfeit**. This funds the purchase of a replacement unit.
+2.  **Trash-Scanner "Rescue"**:
+    *   Integration with **Project 03 (AI Trash Scanner)**. If a ReLoop box is thrown into general waste, the scanner flags the ID and alerts the logistics team for immediate recovery.
+3.  **Community "Rescue" Rewards**:
+    *   Students who find and return "Stranded" containers (left on tables or in regular bins) receive **2 NTD Eco-Karma credit** via LINE Pay.
+4.  **Membership Suspension**:
+    *   Chronic "Loss-making" users are temporarily suspended from the system to maintain the high-integrity circular loop.
+
+---
 *Operational workflow optimized for National Quemoy University (NQU) - Phase 0 & 1.*
