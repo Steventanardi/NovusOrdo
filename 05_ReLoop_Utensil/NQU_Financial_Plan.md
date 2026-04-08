@@ -1,6 +1,6 @@
-# 📊 ReLoop Financial Comparison & Pilot Plan (NQU Small Scale - 100 Meals)
+# 📊 ReLoop Financial Comparison & Pilot Plan (NQU Pilot Scale - 300 Meals)
 
-This document provides a data-driven financial analysis and implementation strategy for the **ReLoop** reusable utensil service at **National Quemoy University (NQU)**, scaled down to a 100-meal-per-day pilot.
+This document provides a data-driven financial analysis and implementation strategy for the **ReLoop** reusable utensil service at **National Quemoy University (NQU)**, optimized for a 300-meal-per-day pilot.
 
 ---
 
@@ -17,71 +17,74 @@ Estimated cost for a standard takeout set in Taiwan (Paper box + plastic lid + w
 | Paper/Plastic Bag | 0.20 | Distribution cost |
 | **Total per Meal** | **3.50** | **100% Waste** |
 
-**Daily Cost (100 meals): NT$ 350**  
-**Annual Cost (300 days): NT$ 105,000**
+**Daily Cost (300 meals): NT$ 1,050**  
+**Annual Cost (300 days): NT$ 315,000**
 
 ---
 
-### 2. ReLoop Reusable Scenario (Projected - 100 Units)
+### 2. ReLoop Reusable Scenario (Projected - 300 Units)
 
 #### A. Initial Investment (CAPEX)
-For a 100-meal-per-day operation, we need a buffer of 250 units (circulation + cleaning + storage).
+For 300 meals/day, we need a buffer of 750 units (circulation + cleaning + storage).
 
 | Item | Unit Cost (NTD) | Total Cost (NTD) |
 | :--- | :--- | :--- |
-| Reusable Container Set | 120 | 30,000 |
-| Stainless Steel Utensil Set | 30 | 7,500 |
-| Medium Sterilization Unit | 60,000 | 60,000 |
-| Smart Collection Bin (1) | 20,000 | 20,000 |
-| **Total Initial CAPEX** | | **117,500** |
+| Reusable Container Set | 120 | 90,000 |
+| Stainless Steel Utensil Set | 30 | 22,500 |
+| Industrial Hood Dishwasher | 95,000 | 95,000 |
+| Smart Collection Cabinets (2) | 30,000 | 60,000 |
+| **Total Initial CAPEX** | | **267,500** |
 
 #### B. Operating Cost per Use (OPEX)
-At this small scale, labor efficiency is the primary challenge due to the fixed minimum hourly wage.
+Calculated based on 300 units/day using Taiwan's minimum wage and utility rates.
 
 | Expense Category | Cost (NTD) | Logic |
 | :--- | :--- | :--- |
-| **Sterilization (Heat + Chem)** | **1.10** | **Electricity (0.044kWh) @ 82°C** + Water + Sanitizer |
-| **Labor (Collection & Washing)** | **1.90** | **1 hour/day @ NT$190/hr** (Min. Wage) / 100 units |
+| **Sterilization (Utilities)** | **0.40** | Water + Electricity (0.044kWh/unit) |
+| **Rent (Mini-HUB)** | **0.50** | NT$4,500/month for a canteen corner |
+| **Logistics (Cart & LINE)** | **0.10** | Electric cart charging + LINE API fees |
+| **Labor (3hrs/day)** | **1.90** | 3 hours @ NT$190/hr / 300 units |
 | Loss/Replacement Fund | 0.40 | 1% loss rate per cycle |
-| **Total per Meal** | **3.40** | **Saves NT$0.10 per meal** |
+| **Total per Meal** | **3.30** | **Saves NT$0.20 per meal** |
 
-**Daily Cost (100 meals): NT$ 340**  
-**Annual Cost (300 days): NT$ 102,000 (+ CAPEX)**
+**Daily Cost (300 meals): NT$ 990**  
+**Annual Cost (300 days): NT$ 297,000 (+ CAPEX)**
 
 ---
 
 ## 📈 Break-Even Analysis
 
-*   **Savings per Meal**: NT$ 3.50 (Single-use) - NT$ 3.40 (Wage-Compliant OPEX) = **NT$ 0.10 savings**.
-*   **Total CAPEX to Recover**: NT$ 117,500.
-*   **Break-even Meals**: 1,175,000 meals.
-*   **Time to Break-even (at 100 meals/day)**: **~39 Years** (Financial payback).
+*   **Savings per Meal**: NT$ 3.50 (Single-use) - NT$ 3.30 (Real OPEX) = **NT$ 0.20 savings**.
+*   **Total CAPEX to Recover**: NT$ 267,500.
+*   **Break-even Meals**: 1,337,500 meals.
+*   **Annual ROI**: At 300 meals/day, the financial payback is slow. 
 
-> [!WARNING]
-> **The Scale Challenge**: At 100 meals/day, labor costs (min. wage) consume 55% of the operating budget. To achieve financial sustainability within 2-3 years, the system must either **scale up to 500+ meals/day** or utilize **shared staffing** (e.g., canteen staff doing ReLoop tasks during downtime).
+> [!TIP]
+> **The Yunus Social Business Pivot**: Instead of relying only on cost-savings, ReLoop charges a **NT$10 "Eco-Service Surcharge"** per meal. This transforms the business into a high-profit engine:
+> *   **Daily Revenue (Surcharge)**: 300 * NT$10 = **NT$3,000/day**.
+> *   **Net Daily Profit**: NT$3,000 - NT$990 (OPEX) = **NT$2,010/day**.
+> *   **New Payback Period**: 267,500 / 2,010 = **133 Days** (Short and sustainable!).
 
 ---
 
 ## 🛡️ Operational Quality Control & Asset Management
 
 ### 1. Maintaining Sterility
-*   **FIFO (First-In, First-Out)**: Use oldest stock first.
+*   **FIFO**: Use oldest stock first via the **LINE Group Inventory Tracking**.
 *   **Sanitized Storage**: Store in enclosed **UV-C cabinets**.
-*   **Re-Sanitization**: Units not used within 72 hours must be re-rinsed.
 
 ### 2. Tracking Asset Lifespan
-*   **QR Logging**: Every container has a laser-etched **unique QR code**.
-*   **Auto-Decommission**: At **500 uses**, the unit is retired and recycled via the **BSF plastic loop**.
+*   **QR Logging**: Scanned via the ReLoop Team **LINE Group** during collection.
+*   **Decommissioning**: At **500 uses**, the unit is retired and ground down into BSF rearing trays.
 
 ---
 
-## 🚀 NQU Tiny-Scale Pilot Plan (Phase 1)
+## 🚀 NQU Small-Scale Pilot Plan (Phase 1)
 
-**Target**: 100 meals/day focusing on **NQU Faculty and Department Offices**.
-
-1.  **Subscription Service**: Departments subscribe for NT$1,000/month for 20 daily "Zero-Waste" meals.
-2.  **Labor Strategy**: Integrate with NQU General Affairs staff or work-study students who are already handling canteen logistics.
-3.  **Social Impact**: Focus on the 24.2% carbon reduction first (`Identifying.pdf`) while scaling up to hit the financial sweet spot.
+1.  **LINE Group Coordination**: 
+    *   **"ReLoop Logistics" Group**: For student workers to manage bin alerts.
+    *   **"ReLoop Users" Group**: For students to track their carbon rank.
+2.  **Shared Rent**: Partner with the NQU Student Association to share an existing office space as the "Washing Hub" to lower rent.
 
 ---
 *Based on findings from "Identifying the climate benefits of reusable takeout container systems..." Huang et al. (2026).*
