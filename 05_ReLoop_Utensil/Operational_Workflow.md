@@ -1,54 +1,75 @@
-# 🔄 ReLoop Operational Workflow
+# 🔄 ReLoop Operational Workflow (Dine-In vs. Takeaway)
 
-This document outlines the end-to-end operational cycle of the ReLoop service at the NQU campus. The system is designed to be **Circular**, **Hygienic**, and **Data-Driven**.
+This document outlines the dual-track operational cycle of the ReLoop service at the NQU campus. The system handles both on-site eating and takeaway to maximize convenience and waste reduction.
 
 ---
 
-## 🗺️ Visual Workflow (Cycle)
+## 🗺️ Visual Workflow (The Two Tracks)
 
 ```mermaid
 graph TD
-    A[<b>1. Distribution</b><br/>Canteen serves food in ReLoop set] --> B(<b>2. Consumption</b><br/>Student eats on campus)
-    B --> C{<b>3. Return</b><br/>Drop at Smart Bin}
-    C -->|Scan QR| D[<b>4. Collection</b><br/>Student worker picks up bins]
-    D --> E[<b>5. Sanitization</b><br/>High-heat Industrial Washing]
-    E --> F{<b>6. QA Check</b><br/>Lifespan & Hygiene Check}
-    F -->|Pass| G[<b>7. Redistribution</b><br/>Restock Canteen inventory]
-    F -->|Fail/Old| H[<b>8. Recycling</b><br/>Process into BSF Loop]
-    G --> A
+    Start[<b>Canteen Order</b>] --> Service{Service Type?}
+    
+    %% Dine-In Path
+    Service -->|Dine-In| DI[<b>Track A: Fast Loop</b>]
+    DI --> DI_Eat[Eat at Canteen Area]
+    DI_Eat --> DI_Drop[Drop at Canteen Exit Bin]
+    DI_Drop --> Wash[<b>Central Washing Hub</b>]
+    
+    %% Takeaway Path
+    Service -->|Takeaway| TA[<b>Track B: Extended Loop</b>]
+    TA --> TA_Carry[Carry to Dorm / Library / Office]
+    TA_Carry --> TA_Eat[Eat at Destination]
+    TA_Eat --> TA_Drop[Drop at Distributed Eco-Bin]
+    TA_Drop --> Log[<b>Logistics Collection</b><br/>E-Cart Pickup]
+    Log --> Wash
+    
+    %% Closing the Circle
+    Wash --> QA[Hygiene & QA Check]
+    QA --> Restock[Restock Canteen]
+    Restock --> Start
 ```
 
 ---
 
-## 📋 Detailed Step-by-Step Process
+## 📋 Operational Breakdown
 
-### Phase 1: Distribution & User Interaction
-1.  **Subscription**: Student joins via the LINE Bot/App and pays a NT$200 deposit.
-2.  **Ordering**: Student orders at the NQU Canteen. The vendor prepares the meal in a ReLoop container.
-3.  **Checkout**: Student scans the **Container QR Code** at the checkout counter. Their "Current Usage" is recorded in the database.
+### Track A: Dine-In (The Instant Return)
+*   **Target**: Students/Staff eating at the canteen tables.
+*   **Process**: 
+    1.  Canteen serves food in the ReLoop tray (No lid).
+    2.  User eats.
+    3.  User drops dirty tray at the **"Instant Return Station"** located at the canteen tray return area.
+*   **Advantage**: Minimal logistics; containers are back in the washing hub within minutes.
 
-### Phase 2: Post-Consumption & Collection
-4.  **Drop-off**: Student finds a **ReLoop Smart Bin** (located at dorms/common areas).
-5.  **Return Scan**: Student scans the container again at the bin. The bin door opens, and the "Return" is logged. Their deposit is "unlocked" for the next meal.
-6.  **Full-Bin Alert**: When the bin is 80% full, an automated alert is sent to the NQU Work-Study Telegram group.
-
-### Phase 3: Logistics & Sterilization
-7.  **Pickup**: A student worker uses an electric cart to swap the full bin with an empty sanitized bin.
-8.  **Washing**: Containers are brought to the Centeral Washing Unit.
-    *   **Pre-rinse**: Mechanical removal of food scraps.
-    *   **High-Heat Wash**: 82°C (180°F) industrial cycle for sterilization.
-9.  **Drying & UV**: Containers are dried and stored in **UV-C cabinets** to maintain sterility.
-
-### Phase 4: Asset Management & Quality Control
-10. **Lifespan Tracking**: During the washing cycle, the system automatically increments the "Total Uses" for each scanned QR code.
-11. **Inspection**: Any container with visible scratches or reaching its 500th use is pulled from the cycle.
-12. **Restocking**: Sanitized sets are delivered back to the canteen vendors in sealed, clean transportation boxes.
+### Track B: Takeaway (The Distributed Loop)
+*   **Target**: Students eating in dorms, offices, or study rooms.
+*   **Process**:
+    1.  Canteen serves food in the ReLoop tray + **Secure Lid**.
+    2.  User scans QR at checkout to link the container to their account.
+    3.  User eats at their convenience at a distant location.
+    4.  User finds the **nearest campus bin** (Dorm gate, etc.) to drop the empty box.
+*   **Advantage**: Replaces the need for 30,000+ single-use bento boxes annually per canteen.
 
 ---
 
-## 🛡️ Sterility Guardrails
-*   **72-Hour Rule**: Any clean container not used within 72 hours is automatically sent back for a "Sanity Rinse."
-*   **Batch Integrity**: Each batch is dated and tagged. The canteen uses **FIFO (First-In, First-Out)** methodology.
+## 📋 Step-by-Step Step Management
+
+| Step | Action | Responsibility |
+| :--- | :--- | :--- |
+| **1. Order** | Scan user LINE ID & Container QR | Canteen Staff |
+| **2. Return** | Drop in bin (Dine-in or Distributed) | User |
+| **3. Logic** | Collect bins & swap for empty ones | ReLoop Student Team |
+| **4. Sanitization**| High-heat wash (82°C) + UV-C drying | Washing Hub Staff |
+| **5. Audit** | Log batch status & hygiene check | Manager |
 
 ---
-*Operational workflow optimized for National Quemoy University (NQU) based on the Huang et al. 2026 study.*
+
+## 🛡️ Takeaway Guardrails (The "3-Day" Rule)
+To prevent containers from piling up in dorm rooms:
+1.  **24-Hour Nudge**: LINE bot sends a friendly "Don't forget to return!" message.
+2.  **48-Hour Alert**: Reminder that the "Deposit Hold" will be activated soon.
+3.  **72-Hour Hold**: NT$150 deposit is temporarily held. This ensures users prioritize returning takeaway boxes during their next trip to class.
+
+---
+*Operational workflow optimized for National Quemoy University (NQU) - Phase 0 & 1.*

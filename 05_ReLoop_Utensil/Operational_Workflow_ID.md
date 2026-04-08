@@ -1,54 +1,75 @@
-# 🔄 Alur Operasional ReLoop
+# 🔄 Alur Kerja Operasional ReLoop (Makan di Tempat vs. Dibungkus)
 
-Dokumen ini merinci siklus operasional end-to-end dari layanan ReLoop di kampus NQU. Sistem ini dirancang untuk menjadi **Sirkular**, **Higienis**, dan **Berbasis Data**.
+Dokumen ini menguraikan siklus operasional jalur ganda dari layanan ReLoop di kampus NQU. Sistem ini menangani makan di tempat dan bawa pulang (takeaway) untuk memaksimalkan kenyamanan dan pengurangan limbah.
 
 ---
 
-## 🗺️ Alur Visual (Siklus)
+## 🗺️ Alur Kerja Visual (Dua Jalur)
 
 ```mermaid
 graph TD
-    A[<b>1. Distribusi</b><br/>Kantin menyajikan makanan di set ReLoop] --> B(<b>2. Konsumsi</b><br/>Siswa makan di kampus)
-    B --> C{<b>3. Pengembalian</b><br/>Masukkan ke Smart Bin}
-    C -->|Scan QR| D[<b>4. Koleksi</b><br/>Pekerja mahasiswa mengambil bin]
-    D --> E[<b>5. Sanitasi</b><br/>Pencucian Industri Suhu Tinggi]
-    E --> F{<b>6. Cek Layak</b><br/>Cek Masa Pakai & Higienitas}
-    F -->|Lolos| G[<b>7. Redistribusi</b><br/>Stok kembali ke inventaris Kantin]
-    F -->|Gagal/Tua| H[<b>8. Daur Ulang</b><br/>Proses ke Loop BSF]
-    G --> A
+    Start[<b>Pemesanan Kantin</b>] --> Service{Tipe Layanan?}
+    
+    %% Jalur Makan di Tempat
+    Service -->|Dine-In| DI[<b>Jalur A: Siklus Cepat</b>]
+    DI --> DI_Eat[Makan di Area Kantin]
+    DI_Eat --> DI_Drop[Letakkan di Bak Keluar Kantin]
+    DI_Drop --> Wash[<b>Pusat Pencucian Terpusat</b>]
+    
+    %% Jalur Bawa Pulang
+    Service -->|Takeaway| TA[<b>Jalur B: Siklus Luas</b>]
+    TA --> TA_Carry[Bawa ke Asrama/Perpustakaan/Kantor]
+    TA_Carry --> TA_Eat[Makan di Lokasi Tujuan]
+    TA_Eat --> TA_Drop[Drop di Bak Eco-Bin Terdistribusi]
+    TA_Drop --> Log[<b>Koleksi Logistik</b><br/>Penjemputan E-Cart]
+    Log --> Wash
+    
+    %% Menutup Lingkaran
+    Wash --> QA[Cek Higienitas & QA]
+    QA --> Restock[Stok Ulang Kantin]
+    Restock --> Start
 ```
 
 ---
 
-## 📋 Detail Proses Langkah-demi-Langkah
+## 📋 Rincian Operasional
 
-### Fase 1: Distribusi & Interaksi Pengguna
-1.  **Subskripsi**: Siswa bergabung melalui LINE Bot/App dan membayar deposit NT$200.
-2.  **Pemesanan**: Siswa memesan di Kantin NQU. Vendor menyiapkan makanan dalam wadah ReLoop.
-3.  **Checkout**: Siswa memindai **Kode QR Wadah** di konter pembayaran. Penggunaan mereka dicatat dalam database.
+### Jalur A: Makan di Tempat (Pengembalian Instan)
+*   **Target**: Mahasiswa/Staf yang makan di meja kantin.
+*   **Proses**: 
+    1.  Kantin menyajikan makanan dalam baki ReLoop (Tanpa tutup).
+    2.  Pengguna makan.
+    3.  Pengguna meletakkan baki kotor di **"Stasiun Pengembalian Instan"** yang terletak di area pengembalian baki kantin.
+*   **Keunggulan**: Logistik minimal; wadah kembali ke pusat pencucian dalam hitungan menit.
 
-### Fase 2: Pasca-Konsumsi & Pengumpulan
-4.  **Drop-off**: Siswa menemukan **Smart Bin ReLoop** (berlokasi di asrama/area umum).
-5.  **Scan Kembali**: Siswa memindai wadah lagi di bin. Pintu bin terbuka, dan pengembalian dicatat. Deposit mereka "terbuka" untuk makanan berikutnya.
-6.  **Peringatan Bin Penuh**: Ketika bin terisi 80%, peringatan otomatis dikirim ke grup Telegram mahasiswa kerja-paruh waktu.
-
-### Fase 3: Logistik & Sterilisasi
-7.  **Penjemputan**: Pekerja mahasiswa menggunakan cart elektrik untuk menukar bin penuh dengan bin kosong yang sudah disanitasi.
-8.  **Pencucian**: Wadah dibawa ke Unit Pencucian Pusat.
-    *   **Bilas Awal**: Pembersihan sisa makanan secara mekanis.
-    *   **Cuci Suhu Tinggi**: Siklus industri 82°C (180°F) untuk sterilisasi.
-9.  **Pengeringan & UV**: Wadah dikeringkan dan disimpan dalam **lemari UV-C** untuk menjaga sterilitas.
-
-### Fase 4: Manajemen Aset & Pengendalian Mutu
-10. **Pelacakan Masa Pakai**: Selama siklus pencucian, sistem secara otomatis menambah "Total Pemakaian" untuk setiap kode QR yang dipindai.
-11. **Inspeksi**: Wadah apa pun dengan goresan terlihat atau mencapai pemakaian ke-500 ditarik dari siklus.
-12. **Stok Ulang**: Set yang telah disanitasi dikirim kembali ke vendor kantin dalam kotak transportasi bersih yang tersegel.
+### Jalur B: Bawa Pulang / Takeaway (Siklus Terdistribusi)
+*   **Target**: Mahasiswa yang makan di asrama, kantor, atau ruang belajar.
+*   **Proses**:
+    1.  Kantin menyajikan makanan dalam baki ReLoop + **Tutup Anti-Bocor**.
+    2.  Pengguna memindai QR saat pembayaran untuk menautkan wadah ke akun mereka.
+    3.  Pengguna makan di lokasi yang jauh.
+    4.  Pengguna mencari **bak kampus terdekat** (Gerbang asrama, dll.) untuk meletakkan kotak kosong.
+*   **Keunggulan**: Menggantikan kebutuhan akan 30.000+ kotak bento sekali pakai setiap tahun per kantin.
 
 ---
 
-## 🛡️ Batasan Sterilitas
-*   **Aturan 72 Jam**: Wadah bersih yang tidak digunakan dalam 72 jam otomatis dikirim kembali untuk "Bilas Sanitasi."
-*   **Integritas Batch**: Setiap batch diberi tanggal dan tag. Kantin menggunakan metodologi **FIFO (First-In, First-Out)**.
+## 📋 Manajemen Langkah-Demi-Langkah
+
+| Langkah | Tindakan | Tanggung Jawab |
+| :--- | :--- | :--- |
+| **1. Pesan** | Pindai LINE ID pengguna & QR Wadah | Staf Kantin |
+| **2. Kembali** | Letakkan di bak (Dine-in atau Terdistribusi) | Pengguna |
+| **3. Logis** | Koleksi bak kotor & ganti dengan yang bersih | Tim Mahasiswa ReLoop |
+| **4. Sanitasi**| Cuci suhu tinggi (82°C) + pengeringan UV-C | Staf Pusat Pencucian |
+| **5. Audit** | Mencatat status batch & cek higienitas | Manajer |
 
 ---
-*Alur operasional dioptimalkan untuk Universitas Nasional Quemoy (NQU) berdasarkan studi Huang et al. 2026.*
+
+## 🛡️ Pengaman Takeaway (Aturan "3-Hari")
+Untuk mencegah wadah menumpuk di kamar asrama:
+1.  **Nudge 24 Jam**: Bot LINE mengirimkan pesan ramah "Jangan lupa dikembalikan!".
+2.  **Peringatan 48 Jam**: Pengingat bahwa "Penahanan Deposit" akan segera diaktifkan.
+3.  **Hold 72 Jam**: Deposit NT$150 ditahan sementara. Ini memastikan pengguna memprioritaskan pengembalian kotak saat perjalanan ke kelas berikutnya.
+
+---
+*Alur kerja operasional dioptimalkan untuk National Quemoy University (NQU) - Fase 0 & 1.*
