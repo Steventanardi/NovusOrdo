@@ -42,21 +42,21 @@ Based on logistics and industrial cleaning standards from the Huang et al. study
 | Expense Category | Cost (NTD) | Logic |
 | :--- | :--- | :--- |
 | **Sterilization (Heat + Chem)** | **1.10** | **Electricity (0.044kWh) @ 82°C** + Water + Sanitizer |
-| Labor (Collection & Machine Loading) | 0.70 | Part-time student labor (NQU USR program) |
+| **Labor (Collection & Washing)** | **1.20** | **6 hours/day @ NT$190/hr** (Min. Wage) / 1,000 units |
 | Loss/Replacement Fund | 0.40 | 1% loss rate per cycle |
-| **Total per Meal** | **2.20** | **Total savings: NT$1.30 per meal** |
+| **Total per Meal** | **2.70** | **Total savings: NT$0.80 per meal** |
 
-**Daily Cost (1,000 meals): NT$ 1,900**  
-**Annual Cost (300 days): NT$ 570,000 (+ CAPEX)**
+**Daily Cost (1,000 meals): NT$ 2,700**  
+**Annual Cost (300 days): NT$ 810,000 (+ CAPEX)**
 
 ---
 
 ## 📈 Break-Even Analysis
 
-*   **Savings per Meal**: NT$ 3.50 (Single-use) - NT$ 2.20 (Safe OPEX) = **NT$ 1.30 savings**.
-*   **Total CAPEX to Recover**: NT$ 585,000 (Includes Dishwasher).
-*   **Break-even Meals**: 585,000 / 1.30 = **450,000 meals**.
-*   **Time to Break-even (at 1,000 meals/day)**: **450 Days** (~1.5 Academic Years).
+*   **Savings per Meal**: NT$ 3.50 (Single-use) - NT$ 2.70 (Wage-Compliant OPEX) = **NT$ 0.80 savings**.
+*   **Total CAPEX to Recover**: NT$ 585,000.
+*   **Break-even Meals**: 585,000 / 0.80 = **731,250 meals**.
+*   **Time to Break-even (at 1,000 meals/day)**: **731 Days** (~2.4 Academic Years).
 
 > [!IMPORTANT]
 > **Sterilization standard**: To meet food safety regulations for reusables, the system must utilize a high-heat final rinse (82°C / 180°F) or a chemical sanitizer. The `Identifying.pdf` study notes that the **cleaning/disinfection stage** is the largest energy hotspot (51.7% of operational carbon), but is mandatory for user trust and safety.
