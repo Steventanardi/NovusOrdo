@@ -8,7 +8,11 @@
 
 ## 📋 Executive Summary
 
-This document synthesizes comprehensive academic and industry research across two flagship social enterprise proposals submitted for the **6th Taiwan Yunus Social Business Innovation Award**. Both projects address Taiwan's critical environmental gaps—the failure of "surface-level" recycling and the organic waste crisis—using frontier biotechnology and AI. Collectively, they form an integrated circular economy system: the **Trash Scanner** produces cleaner material streams, while the **BSF Bio-Loop** converts residual organic waste into high-value protein and fertilizer.
+This document synthesizes comprehensive academic and industry research across two flagship social enterprise proposals submitted for the **6th Taiwan Yunus Social Business Innovation Award**. Both projects address Taiwan's critical environmental gaps—the failure of "surface-level" recycling and the urban organic waste crisis—using frontier biotechnology and AI.
+
+> **⚠️ Critical Policy Discovery (2026)**: Taiwan's government has confirmed a **full ban on using food waste as pig feed effective January 1, 2027**, triggered by an October 2025 African Swine Fever (ASF) outbreak traced to unsterilized kitchen swill. This creates an **immediate vacuum of ~731 tonnes/day** of business food waste that previously went to pig farms and now urgently needs an alternative processing pathway. **BSF bioconversion is officially listed by Taiwan's Ministry of Environment as one of the four approved alternative pathways.** This make the BSF Bio-Loop proposal not just timely — it is a government-mandated necessity.
+
+Collectively, the two projects form an integrated circular economy system: the **Trash Scanner** produces cleaner material streams, while the **BSF Bio-Loop** converts the redirected organic waste (formerly pig swill) into high-value protein and fertilizer.
 
 ---
 
@@ -134,18 +138,102 @@ Modern object detection models achieve **>90% accuracy** in real-world recycling
 
 ## PART II: BSF BIO-LOOP — Black Soldier Fly Circular Protein System
 
+---
+
+## 🚨 CRITICAL POLICY CATALYST: Taiwan's 2027 Pig-Feed Ban (African Swine Fever)
+
+> This section documents the most important regulatory development that directly creates the market opportunity for the BSF Bio-Loop. It was confirmed by multiple official Taiwanese government sources in 2025–2026.
+
+### The Trigger: October 2025 African Swine Fever Outbreak
+
+In October 2025, Taiwan experienced an **African Swine Fever (ASF)** outbreak. Government investigations traced the source directly to **unsterilized kitchen swill (廚餘)** fed to pigs on commercial farms. ASF is a highly contagious viral disease with no cure and a near-100% fatality rate in pigs—a catastrophic risk to Taiwan's pork industry.
+
+**In response, the Executive Yuan immediately enacted a phased national ban:**
+
+| Phase | Timeline | Rule |
+|:---|:---|:---|
+| **Phase 1 — Immediate** | Jan 1, 2026 | Household kitchen waste (家戶廚餘) immediately banned from pig feed |
+| **Phase 2 — Regulated** | All of 2026 | Business food waste permitted ONLY with: heat treatment + real-time CCTV + GPS on transport vehicles + local government approval |
+| **Phase 3 — Full Ban** | **Jan 1, 2027** | **ALL food waste as pig feed completely prohibited nationwide** |
+
+*Sources: Executive Yuan Taiwan, OCAC Gov.tw, Eco-Business.com, Taiwan News, RTI, PTS, Taipei Times (2025–2026)*
+
+---
+
+### The Vacuum: 731 Tonnes/Day of Orphaned Food Waste
+
+Before the ban, pig farming was absorbing a **massive share** of Taiwan's daily food waste. Now that channel is closing permanently.
+
+| Food Waste Flow | Daily Volume | Destination After 2027 |
+|:---|:---|:---|
+| Total food waste generated in Taiwan | **2,115 tonnes/day** | Needs processing |
+| Previously absorbed by pig farms (business waste) | **~731 tonnes/day** | ❌ **BANNED** — needs new solution |
+| Currently handled by recycling facilities | ~1,100 tonnes/day | Composting/biogas |
+| Currently going to incineration/landfill | ~284 tonnes/day | Target for elimination by 2028 |
+
+> **This 731 tonnes/day is the market gap.** It is food waste that was processed, profitable, and now suddenly has no home. Pig farms are being paid NT$3,600 per head to switch to commercial feed. The waste they used to take — primarily restaurant, market, and institutional food scraps — is now looking for a new processor.
+
+*Source: Eco-Business.com + Taiwan Ministry of Environment (moenv.gov.tw) + Focus Taiwan (focustaiwan.tw), 2025–2026*
+
+---
+
+### Taiwan Government's Four Approved Alternatives
+
+The **Ministry of Environment (環境部)** has officially designated **four pathways** to absorb this redirected food waste:
+
+| # | Official Pathway | Scale | Value Output |
+|:---:|:---|:---|:---|
+| 1 | **Composting (堆肥)** | Large-scale, rural | Organic fertilizer |
+| 2 | **Bioenergy / Anaerobic Digestion (能源化/沼氣)** | Plant-scale | Biogas + electricity |
+| **3** | **🌟 Black Soldier Fly Cultivation (黑水虻養殖)** | **Decentralized, urban** | **Protein + Fertilizer** |
+| 4 | **Incineration (焚化)** | Last resort | Energy only |
+
+> **BSF (黑水虻) is explicitly named by Taiwan's Ministry of Environment as an official food waste alternative.** This is not a startup hypothesis — it is government-validated technology with active policy support.
+
+*Source: CNA Gov.tw (中央社), Taiwan Ministry of Environment official guidance, PTS Taiwan, 2025–2026*
+
+---
+
+### Why BSF Wins vs. The Other Three Pathways
+
+| Factor | Composting | Anaerobic Digestion | **BSF (Our Solution)** | Incineration |
+|:---|:---|:---|:---|:---|
+| Can handle high-fat/oil night market waste? | ❌ Kills bacteria | ⚠️ Partial | ✅ **Yes** | ✅ Burns |
+| Urban / proximity deployment? | ❌ Needs land | ❌ Plant-scale | ✅ **Container-size** | ❌ Plant-scale |
+| Value of output | Low (compost) | Medium (energy) | ✅ **High (protein + fertilizer)** | None |
+| Speed of processing | 60–180 days | 20–40 days | ✅ **7–14 days** | <1 day |
+| Carbon footprint | Low | Low-Medium | ✅ **Low** | ❌ High |
+| Addresses protein import gap? | ❌ No | ❌ No | ✅ **Yes (fishmeal replacement)** | ❌ No |
+| Revenue generation | Low | Medium | ✅ **High** | None |
+
+**BSF is the only pathway that solves both problems simultaneously: it processes the food waste AND creates a revenue-positive circular protein product.**
+
+---
+
+### The Government Subsidy Opportunity
+
+The ban comes with significant government funding that the BSF Bio-Loop can leverage:
+
+- **Per-pig-head feed transition subsidy**: NT$3,600/head for farms switching to commercial feed. As farms convert, they lose their waste-processing role — creating B2G contract opportunities for BSF operators to take over waste collection from those farms.
+- **Food waste processing infrastructure**: Ministry of Environment targets **2,119 tonnes/day processing capacity** by end of 2027. There is an active government push to fund new food waste processing infrastructure.
+- **Agricultural technology grants**: Rural and urban BSF facilities may qualify under the Council of Agriculture (農業部) biotechnology and biosecurity investment programs.
+
+---
+
 ### 2.1 The Problem: Urban Organic Waste & Protein Import Dependence
 
-Taiwan generates **over 1,000 tonnes of food waste daily** from its commercial and restaurant sectors. Night markets (夜市) alone—Shilin, Raohe, Fengjia, Ningxia—produce concentrated, high-organic-matter waste streams that are:
+Taiwan generates **2,115 tonnes of food waste daily** across all sectors. Of this:
+- **731 tonnes/day** previously went to pig farms and is NOW BANNED from doing so as of Jan 1, 2027.
+- Night markets (夜市) alone—Shilin, Raohe, Fengjia, Ningxia—produce concentrated, high-organic-matter waste streams that are:
 
 - **Incompatible with traditional composting**: High lipid (fat) and salt content from typical night market cuisine (fried foods, stews, soy-heavy dishes) kills aerobic composting bacteria.
-- **Costly to transport**: Urban waste must travel 30–80 km to centralized rural composting facilities, generating additional carbon emissions.
-- **Destined for incineration**: Without viable alternatives, this wet, mixed organic waste is sent to Taiwan's 25 incineration plants, which government policy now explicitly targets for food waste diversion by **end of 2027** (OCAC Gov.tw, 2024).
+- **No longer eligible for pig farms**: The 2027 full ban eliminates the most common urban food waste disposal channel.
+- **Costly to transport centrally**: Urban waste must travel 30–80 km to centralized rural composting facilities, generating additional carbon emissions.
 
-**Protein Import Dependency:**
+**Protein Import Dependency (Second Incentive):**
 - Taiwan imports significant volumes of fishmeal (魚粉) for its robust aquaculture sector—one of Asia's largest.
 - Fishmeal prices are globally volatile, creating food security vulnerability.
-- Taiwan's Fisheries Research Institute (農委會水產試驗所) is actively developing local, sustainable protein alternatives (OCAC Gov.tw, 2024).
+- Taiwan's Fisheries Research Institute (農委會水產試驗所) confirmed BSF larvae as a fishmeal replacement for Japanese eel aquaculture with no negative impact on growth or meat quality (OCAC Gov.tw, 2024).
 
 ---
 
@@ -380,10 +468,21 @@ Based on the Foundation for Yunus Social Business Taiwan's historical criteria:
 
 ## APPENDIX: QUICK-REFERENCE STATISTICS
 
+### 🚨 ASF Pig-Feed Ban — The Key Numbers
+- **ASF outbreak**: October 2025 — triggered by unsterilized kitchen waste fed to pigs
+- **Phase 1 ban** (household waste): **January 1, 2026** — immediate
+- **Full ban** (ALL food waste as pig feed): **January 1, 2027**
+- **Daily volume displaced from pig farms**: **~731 tonnes/day** of business food waste
+- **Total Taiwan food waste generated**: **2,115 tonnes/day**
+- **Government's target processing capacity** by end of 2027: **2,119 tonnes/day**
+- **BSF status**: Officially listed by Ministry of Environment as 1 of 4 approved alternatives
+- **Farmer subsidy** for switching to commercial feed: **NT$3,600/pig-head**
+- **Per-farm transition subsidy**: NT$300,000–NT$3,000,000 (depending on farm size)
+
 ### Trash Scanner Fast Facts
-- Taiwan municipal recycling rate: **59.6%** (but purity is low)
+- Taiwan municipal recycling rate: **59.6%** (but purity is low due to contamination)
 - Taiwan annual waste: **>11 million tonnes**
-- Active incineration plants: **25** (many >20 years old)
+- Active incineration plants: **25** (many >20 years old, many need upgrades)
 - AI sorting throughput demonstrated: **2 → 10 tonnes/hour**
 - YOLOv8 accuracy in recycling: **90–97%**
 - Labor reduction from AI sorting: **70%+**
@@ -391,20 +490,33 @@ Based on the Foundation for Yunus Social Business Taiwan's historical criteria:
 - Full sorting line CAPEX: **$55,000–$75,000 USD**
 
 ### BSF Bio-Loop Fast Facts
-- Taiwan commercial food waste/day: **>1,000 tonnes**
+- Taiwan total food waste daily: **2,115 tonnes** (731 t/day newly orphaned from pig farms)
 - BSF waste volume reduction: **70–80% in 7–14 days**
 - BSFL crude protein content: **40–50% dry weight**
 - Global BSF market 2025: **$1.01 billion**
-- Global BSF market 2030 (projected): **$2.22 billion**
-- BSF CAGR: **17–30.8%** (varying estimates)
+- Global BSF market 2030 (projected): **$2.22 billion** (CAGR 17%)
+- BSF larvae market CAGR (broader estimate): **30.8%** (2025–2034)
 - Insect protein market CAGR: **38.6%** (Technavio/Mordor)
-- Taiwan regulations: BSF on non-vegetarian diets allowed **since 2021**
-- Policy deadline: Food waste to leave incineration stream by **end of 2027**
+- Taiwan BSF regulatory: Non-vegetarian feedstock allowed **since 2021**
+- Policy deadline: **ALL food waste OUT of pig farms by Jan 1, 2027**
 - Per-hub revenue (annualized): **~$141,000 USD**
 - Per-hub CAPEX: **~$120,000–180,000 USD**
 - Payback period: **18–30 months**
+
+### New Citations Added (ASF Ban Research)
+23. **Eco-Business.com** — "Taiwan moves to ban food waste as pig feed from 2027," 2026. eco-business.com
+24. **OCAC Gov.tw** — "Taiwan Kitchen Waste Pig Feed Phase-Out Policy," 2026. ocac.gov.tw
+25. **Focus Taiwan (CNA)** — "Ministry targets 2,119 t/day food waste processing by 2027," 2026. focustaiwan.tw
+26. **Taiwan Public Television Service (PTS)** — "廚餘禁止養豬政策報導," 2025–2026. pts.org.tw
+27. **ECCT (European Chamber of Commerce Taiwan)** — "African Swine Fever and food waste regulation update," 2026. ecct.com.tw
+28. **Taiwan News** — "Taiwan to fully ban food waste as pig feed starting 2027," 2026. taiwannews.com.tw
+29. **Taipei Times** — "Food waste pig ban: the alternative processing landscape," 2026. taipeitimes.com
+30. **Radio Taiwan International (RTI)** — "廚餘養豬落日條款 2027 全面禁止," 2026. rti.org.tw
+31. **USDA APHIS** — "Taiwan African Swine Fever Outbreak Response," 2025. usda.gov
+32. **MDPI / NIH** — "BSF vs. Anaerobic Digestion: Comparative Analysis for Organic Waste," 2024–2025.
 
 ---
 
 *© 2026 Steven Tanardi — Yunus Vision Team. All Rights Reserved.*
 *This document is prepared solely for submission to the 6th Taiwan Yunus Social Business Innovation Award.*
+*Last updated: April 8, 2026 — includes critical ASF/pig-feed ban research update.*

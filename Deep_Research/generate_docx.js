@@ -168,10 +168,251 @@ const makeTable = (headers, rows, themeColor = COLORS.primary) => {
 // =====================================================================
 // DOCUMENT BUILD
 // =====================================================================
+// =====================================================================
+// SHARED CONTENT BUILDER
+// =====================================================================
+const buildENContent = () => [
+
+        // ─── COVER ───────────────────────────────────────────────
+        makeSpacer(400),
+        new Paragraph({
+          children: [new TextRun({ text: "Deep Research Summary", bold: true, size: 56, color: COLORS.primary, font: "Calibri" })],
+          alignment: AlignmentType.CENTER,
+          spacing: { after: 100 },
+        }),
+        new Paragraph({
+          children: [new TextRun({ text: "6th Taiwan Yunus Social Business Innovation Award", size: 32, color: COLORS.accent, font: "Calibri" })],
+          alignment: AlignmentType.CENTER,
+          spacing: { after: 80 },
+        }),
+        new Paragraph({
+          children: [new TextRun({ text: "Projects 03 & 04: AI Trash Scanner · BSF Bio-Loop", size: 26, color: COLORS.headerBlue, italics: true })],
+          alignment: AlignmentType.CENTER,
+          spacing: { after: 60 },
+        }),
+        makeDivider(),
+        new Paragraph({
+          children: [
+            new TextRun({ text: "Prepared by: ", bold: true, size: 22, color: COLORS.textDark }),
+            new TextRun({ text: "Steven Tanardi", size: 22, color: COLORS.primary }),
+            new TextRun({ text: "  |  Date: April 2026  |  Updated: Apr 8, 2026", size: 22, color: COLORS.subtleGray }),
+          ],
+          alignment: AlignmentType.CENTER,
+          spacing: { after: 200 },
+        }),
+        makePageBreak(),
+
+        // ─── CRITICAL POLICY ALERT ───────────────────────────────
+        makeHeading1("CRITICAL POLICY CATALYST: Taiwan's 2027 Pig-Feed Ban (African Swine Fever)"),
+        makeQuote(
+          "WARNING: This section documents the most important regulatory development that directly creates the market opportunity for the BSF Bio-Loop. Confirmed by multiple official Taiwanese government sources in 2025-2026."
+        ),
+        makeHeading2("The Trigger: October 2025 African Swine Fever Outbreak"),
+        makeParagraph(
+          "In October 2025, Taiwan experienced an African Swine Fever (ASF) outbreak. Government investigations traced the source directly to unsterilized kitchen waste (廚餘) fed to pigs on commercial farms. ASF is a highly contagious viral disease with no cure and a near-100% fatality rate in pigs—a catastrophic risk to Taiwan's pork industry."
+        ),
+        makeHeading3("Phased National Ban Timeline"),
+        makeTable(
+          ["Phase", "Timeline", "Rule"],
+          [
+            ["Phase 1 — Immediate", "Jan 1, 2026", "Household kitchen waste (家戶廚餘) immediately banned from pig feed"],
+            ["Phase 2 — Regulated", "All of 2026", "Business food waste permitted ONLY with: heat treatment + real-time CCTV + GPS tracking + local government approval"],
+            ["Phase 3 — FULL BAN", "Jan 1, 2027", "ALL food waste as pig feed completely prohibited nationwide — no exceptions"],
+          ],
+          "C0392B"
+        ),
+        makeSpacer(120),
+        makeHeading2("The Vacuum: 731 Tonnes/Day of Orphaned Food Waste"),
+        makeTable(
+          ["Food Waste Flow", "Daily Volume", "Destination After 2027"],
+          [
+            ["Total food waste generated in Taiwan", "2,115 tonnes/day", "Needs processing"],
+            ["Previously absorbed by pig farms (business waste)", "~731 tonnes/day", "BANNED — needs new solution"],
+            ["Currently handled by recycling facilities", "~1,100 tonnes/day", "Composting/biogas"],
+            ["Currently going to incineration/landfill", "~284 tonnes/day", "Target for elimination by 2028"],
+          ]
+        ),
+        makeSpacer(80),
+        makeQuote(
+          "This 731 tonnes/day is the market gap. It is food waste that was processed, profitable, and now suddenly has no home. Pig farms are being paid NT$3,600 per head to switch to commercial feed. The waste they used to process — primarily restaurant, market, and institutional food scraps — is now looking for a new processor. BSF Bio-Hub is the answer."
+        ),
+        makeHeading2("Government's Four Official Alternative Pathways"),
+        makeTable(
+          ["#", "Official Pathway", "Scale", "Value Output"],
+          [
+            ["1", "Composting (堆肥)", "Large-scale, rural", "Organic fertilizer"],
+            ["2", "Bioenergy / Anaerobic Digestion (能源化/沼氣)", "Plant-scale", "Biogas + electricity"],
+            ["3 ★", "Black Soldier Fly Cultivation (黑水虻養殖)", "Decentralized, URBAN", "Protein + Fertilizer — HIGHEST VALUE"],
+            ["4", "Incineration (焚化)", "Last resort", "Energy only"],
+          ],
+          COLORS.accent
+        ),
+        makeSpacer(80),
+        makeQuote(
+          "BSF (黑水虻) is explicitly named by Taiwan's Ministry of Environment as an official food waste alternative. This is not a startup hypothesis — it is government-validated technology with active policy support and funding available."
+        ),
+        makeHeading2("Why BSF Wins vs. All 3 Other Official Alternatives"),
+        makeTable(
+          ["Factor", "Composting", "Anaerobic Digestion", "BSF (Our Solution)", "Incineration"],
+          [
+            ["High-fat/oil waste?", "Kills bacteria ✗", "Partial ⚠", "YES ✓", "Burns ✓"],
+            ["Urban proximity?", "Needs land ✗", "Plant-scale ✗", "Container-size ✓", "Plant-scale ✗"],
+            ["Output value", "Low (compost)", "Medium (energy)", "HIGH (protein+fertilizer) ✓", "None"],
+            ["Processing speed", "60-180 days", "20-40 days", "7-14 days ✓", "<1 day"],
+            ["Fixes protein import gap?", "No ✗", "No ✗", "YES ✓", "No ✗"],
+            ["Revenue generating?", "Low", "Medium", "HIGH ✓", "None"],
+          ]
+        ),
+        makeSpacer(80),
+        makeHeading3("Government Subsidy Opportunities"),
+        makeBullet("Per-pig-head feed transition subsidy: NT$3,600/head — as pig farms exit waste processing, B2G contracts emerge for BSF operators to take over collections."),
+        makeBullet("Ministry of Environment target: 2,119 tonnes/day processing capacity by end of 2027 — active funding for new food waste processors."),
+        makeBullet("Council of Agriculture (農業部) biotech grants: Urban BSF facilities may qualify under biosecurity investment programs."),
+        makePageBreak(),
+];
+
+const buildIDContent = () => [
+        makeSpacer(400),
+        new Paragraph({
+          children: [new TextRun({ text: "Ringkasan Riset Mendalam", bold: true, size: 56, color: COLORS.primary, font: "Calibri" })],
+          alignment: AlignmentType.CENTER, spacing: { after: 100 },
+        }),
+        new Paragraph({
+          children: [new TextRun({ text: "Penghargaan Inovasi Sosial Bisnis Yunus Taiwan ke-6", size: 32, color: COLORS.accent })],
+          alignment: AlignmentType.CENTER, spacing: { after: 80 },
+        }),
+        new Paragraph({
+          children: [new TextRun({ text: "Proyek 03 & 04 — Bahasa Indonesia", size: 26, color: COLORS.headerBlue, italics: true })],
+          alignment: AlignmentType.CENTER, spacing: { after: 60 },
+        }),
+        makeDivider(),
+        new Paragraph({
+          children: [
+            new TextRun({ text: "Disusun oleh: ", bold: true, size: 22 }),
+            new TextRun({ text: "Steven Tanardi", size: 22, color: COLORS.primary }),
+            new TextRun({ text: "  |  April 2026", size: 22, color: COLORS.subtleGray }),
+          ],
+          alignment: AlignmentType.CENTER, spacing: { after: 200 },
+        }),
+        makePageBreak(),
+        makeHeading1("KATALIS KEBIJAKAN KRITIS: Larangan Pakan Babi 2027 (Demam Babi Afrika)"),
+        makeQuote("Bagian ini mendokumentasikan perkembangan regulasi terpenting yang secara langsung menciptakan peluang pasar untuk Bio-Loop BSF."),
+        makeHeading2("Pemicu: Wabah Demam Babi Afrika Oktober 2025"),
+        makeParagraph("Pada Oktober 2025, Taiwan mengalami wabah Demam Babi Afrika (ASF). Investigasi pemerintah menelusuri sumber langsung ke limbah dapur yang tidak disterilkan (廚餘) yang diberikan ke babi di peternakan komersial. ASF adalah penyakit virus yang sangat menular tanpa obat dan tingkat kematian mendekati 100% pada babi."),
+        makeHeading3("Jadwal Larangan Nasional Bertahap"),
+        makeTable(
+          ["Fase", "Waktu", "Aturan"],
+          [
+            ["Fase 1 — Segera", "1 Jan 2026", "Limbah dapur rumah tangga langsung dilarang sebagai pakan babi"],
+            ["Fase 2 — Diatur", "Sepanjang 2026", "Limbah makanan bisnis hanya dengan: perlakuan panas + CCTV + GPS + persetujuan pemerintah"],
+            ["Fase 3 — LARANGAN PENUH", "1 Jan 2027", "SEMUA limbah makanan sebagai pakan babi dilarang total"],
+          ],
+          "C0392B"
+        ),
+        makeSpacer(100),
+        makeHeading2("Kekosongan: 731 Ton/Hari Limbah Makanan Terlantar"),
+        makeTable(
+          ["Aliran Limbah Makanan", "Volume Harian", "Tujuan Setelah 2027"],
+          [
+            ["Total limbah makanan Taiwan", "2.115 ton/hari", "Perlu pemrosesan"],
+            ["Sebelumnya diserap peternakan babi", "~731 ton/hari", "DILARANG — butuh solusi baru"],
+            ["Ditangani fasilitas daur ulang", "~1.100 ton/hari", "Kompos/biogas"],
+            ["Menuju insinerasi/TPA", "~284 ton/hari", "Target eliminasi sebelum 2028"],
+          ]
+        ),
+        makeSpacer(80),
+        makeQuote("731 ton/hari inilah celah pasarnya. Ini adalah limbah makanan yang sebelumnya diproses, menguntungkan, dan kini tiba-tiba tidak memiliki tempat. BSF Bio-Hub kami adalah solusinya."),
+        makeHeading2("Empat Alternatif Resmi Pemerintah Taiwan"),
+        makeTable(
+          ["#", "Jalur Resmi", "Skala", "Output Nilai"],
+          [
+            ["1", "Pengomposan (堆肥)", "Besar, pedesaan", "Pupuk organik"],
+            ["2", "Bioenergi / Pencernaan Anaerobik", "Skala pabrik", "Biogas + listrik"],
+            ["3 ★", "Budidaya Lalat Tentara Hitam (黑水虻)", "Terdesentralisasi, PERKOTAAN", "Protein + Pupuk — NILAI TERTINGGI"],
+            ["4", "Insinerasi", "Pilihan terakhir", "Energi saja"],
+          ],
+          COLORS.accent
+        ),
+        makeQuote("BSF secara resmi disebutkan oleh Kementerian Lingkungan Hidup Taiwan sebagai alternatif limbah makanan yang disetujui."),
+        makePageBreak(),
+        makeHeading1("Untuk laporan lengkap dalam Bahasa Indonesia, lihat: Deep_Research_Summary_ID.md"),
+        makeParagraph("Dokumen ini merupakan ringkasan DOCX dari Ringkasan Riset Mendalam — Versi Bahasa Indonesia."),
+        makeParagraph("File referensi lengkap: Deep_Research_Summary_ID.md"),
+];
+
+const buildCHContent = () => [
+        makeSpacer(400),
+        new Paragraph({
+          children: [new TextRun({ text: "深度研究摘要", bold: true, size: 56, color: COLORS.primary, font: "Calibri" })],
+          alignment: AlignmentType.CENTER, spacing: { after: 100 },
+        }),
+        new Paragraph({
+          children: [new TextRun({ text: "第六屆台灣尤努斯社會商業創新獎", size: 32, color: COLORS.accent })],
+          alignment: AlignmentType.CENTER, spacing: { after: 80 },
+        }),
+        new Paragraph({
+          children: [new TextRun({ text: "計畫 03 & 04 — 繁體中文版", size: 26, color: COLORS.headerBlue, italics: true })],
+          alignment: AlignmentType.CENTER, spacing: { after: 60 },
+        }),
+        makeDivider(),
+        new Paragraph({
+          children: [
+            new TextRun({ text: "撰寫者：", bold: true, size: 22 }),
+            new TextRun({ text: "Steven Tanardi", size: 22, color: COLORS.primary }),
+            new TextRun({ text: "  ｜  2026 年 4 月", size: 22, color: COLORS.subtleGray }),
+          ],
+          alignment: AlignmentType.CENTER, spacing: { after: 200 },
+        }),
+        makePageBreak(),
+        makeHeading1("關鍵政策催化劑：台灣 2027 年廚餘養豬禁令（非洲豬瘟）"),
+        makeQuote("本節記錄直接創造 BSF Bio-Loop 市場機會的最重要監管進展，已由台灣多個官方政府來源於 2025-2026 年確認。"),
+        makeHeading2("導火線：2025 年 10 月非洲豬瘟疫情"),
+        makeParagraph("2025 年 10 月，台灣爆發非洲豬瘟（ASF）疫情。政府調查將病源直接追溯至商業農場使用未經高溫滅菌的廚餘（廚餘）餵豬。ASF 是高度傳染性病毒性疾病，無解藥，豬隻死亡率近 100%，對台灣豬肉產業構成災難性威脅。"),
+        makeHeading3("分階段全國禁令時間表"),
+        makeTable(
+          ["階段", "時間", "規定"],
+          [
+            ["第一階段 — 立即實施", "2026 年 1 月 1 日", "家戶廚餘立即禁止作為豬飼料"],
+            ["第二階段 — 有條件開放", "2026 年全年", "事業廚餘須符合：高溫處理 + 即時CCTV + GPS追蹤 + 地方政府同意"],
+            ["第三階段 — 全面禁止", "2027 年 1 月 1 日", "所有廚餘作為豬飼料全面禁止，不得例外"],
+          ],
+          "C0392B"
+        ),
+        makeSpacer(100),
+        makeHeading2("市場真空：每日 731 公噸的孤兒廚餘"),
+        makeTable(
+          ["廚餘流向", "每日量", "2027 年後去向"],
+          [
+            ["台灣每日廚餘總產生量", "2,115 公噸/日", "需要處理途徑"],
+            ["過往由養豬場吸收", "約 731 公噸/日", "禁止 — 急需新方案"],
+            ["目前由回收設施處理", "約 1,100 公噸/日", "堆肥/沼氣"],
+            ["目前流向焚化/掩埋", "約 284 公噸/日", "2028 年前目標消除"],
+          ]
+        ),
+        makeSpacer(80),
+        makeQuote("這 731 公噸/日就是市場缺口。這些廚餘過去有人要、有利可圖，現在卻突然無處可去。我們的 BSF 生物樞紐正是這個問題的解答。"),
+        makeHeading2("台灣政府四大官方替代方案"),
+        makeTable(
+          ["#", "官方途徑", "規模", "產值輸出"],
+          [
+            ["1", "堆肥（堆肥）", "大規模、農村", "有機肥料"],
+            ["2", "生質能源/厭氧消化（能源化/沼氣）", "廠房規模", "沼氣 + 電力"],
+            ["3 ★", "黑水虻養殖", "去中心化、都市型", "蛋白質 + 有機肥 — 最高價值"],
+            ["4", "焚化（焚化）", "最後手段", "僅有能源"],
+          ],
+          COLORS.accent
+        ),
+        makeQuote("黑水虻已被台灣環境部正式列名為廚餘替代處理方案。這不是新創公司的假設——這是政府已驗證、積極支持的技術。"),
+        makePageBreak(),
+        makeHeading1("如需完整繁體中文版報告，請參閱：Deep_Research_Summary_CH.md"),
+        makeParagraph("本 DOCX 文件為深度研究摘要之繁體中文版概要。"),
+        makeParagraph("完整參考文件：Deep_Research_Summary_CH.md"),
+];
+
 const doc = new Document({
   creator: "Steven Tanardi",
   title: "Deep Research Summary - Yunus Social Business Innovation Award",
-  description: "Comprehensive research on AI Trash Scanner and BSF Composting",
+  description: "Comprehensive research on AI Trash Scanner and BSF Composting — Updated with ASF Pig-Feed Ban 2027",
   styles: {
     default: {
       document: {
@@ -233,35 +474,7 @@ const doc = new Document({
         }),
       },
       children: [
-
-        // ─── COVER ───────────────────────────────────────────────
-        makeSpacer(400),
-        new Paragraph({
-          children: [new TextRun({ text: "Deep Research Summary", bold: true, size: 56, color: COLORS.primary, font: "Calibri" })],
-          alignment: AlignmentType.CENTER,
-          spacing: { after: 100 },
-        }),
-        new Paragraph({
-          children: [new TextRun({ text: "6th Taiwan Yunus Social Business Innovation Award", size: 32, color: COLORS.accent, font: "Calibri" })],
-          alignment: AlignmentType.CENTER,
-          spacing: { after: 80 },
-        }),
-        new Paragraph({
-          children: [new TextRun({ text: "Projects 03 & 04: AI Trash Scanner · BSF Bio-Loop", size: 26, color: COLORS.headerBlue, italics: true })],
-          alignment: AlignmentType.CENTER,
-          spacing: { after: 60 },
-        }),
-        makeDivider(),
-        new Paragraph({
-          children: [
-            new TextRun({ text: "Prepared by: ", bold: true, size: 22, color: COLORS.textDark }),
-            new TextRun({ text: "Steven Tanardi", size: 22, color: COLORS.primary }),
-            new TextRun({ text: "  |  Date: April 2026  |  Version: 1.0", size: 22, color: COLORS.subtleGray }),
-          ],
-          alignment: AlignmentType.CENTER,
-          spacing: { after: 200 },
-        }),
-        makePageBreak(),
+        ...buildENContent(),
 
         // ─── EXECUTIVE SUMMARY ───────────────────────────────────
         makeHeading1("Executive Summary"),
@@ -627,8 +840,52 @@ const doc = new Document({
   ],
 });
 
-// ─── GENERATE FILE ───────────────────────────────────────────────────
+// ─── GENERATE ALL FILES ──────────────────────────────────────────────
+const docID = new Document({
+  creator: "Steven Tanardi",
+  title: "Ringkasan Riset Mendalam - Penghargaan Inovasi Yunus Taiwan ke-6",
+  description: "Laporan Riset Mendalam — Versi Bahasa Indonesia — Pemindai Sampah AI & BSF Bio-Loop",
+  styles: {
+    default: {
+      document: { run: { font: "Calibri", size: 22, color: COLORS.textDark }, paragraph: { spacing: { line: 276 } } },
+    },
+  },
+  sections: [{
+    properties: { page: { margin: { top: convertInchesToTwip(1.2), bottom: convertInchesToTwip(1.0), left: convertInchesToTwip(1.2), right: convertInchesToTwip(1.2) } } },
+    headers: { default: new Header({ children: [new Paragraph({ children: [new TextRun({ text: "Penghargaan Inovasi Yunus Taiwan ke-6 — Ringkasan Riset (ID)", color: COLORS.subtleGray, size: 18, italics: true })], border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: COLORS.accent } } })] }) },
+    footers: { default: new Footer({ children: [new Paragraph({ children: [new TextRun({ text: "© 2026 Steven Tanardi — Tim Visi Yunus | Dokumen Rahasia", color: COLORS.subtleGray, size: 18 })], alignment: AlignmentType.CENTER, border: { top: { style: BorderStyle.SINGLE, size: 4, color: COLORS.accent } } })] }) },
+    children: buildIDContent(),
+  }],
+});
+
+const docCH = new Document({
+  creator: "Steven Tanardi",
+  title: "深度研究摘要 - 第六屆台灣尤努斯社會商業創新獎",
+  description: "深度研究報告 — 繁體中文版 — AI 垃圾掃描器 & 黑水虻生物循環",
+  styles: {
+    default: {
+      document: { run: { font: "Calibri", size: 22, color: COLORS.textDark }, paragraph: { spacing: { line: 276 } } },
+    },
+  },
+  sections: [{
+    properties: { page: { margin: { top: convertInchesToTwip(1.2), bottom: convertInchesToTwip(1.0), left: convertInchesToTwip(1.2), right: convertInchesToTwip(1.2) } } },
+    headers: { default: new Header({ children: [new Paragraph({ children: [new TextRun({ text: "第六屆台灣尤努斯創新獎 — 深度研究摘要（繁中）", color: COLORS.subtleGray, size: 18, italics: true })], border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: COLORS.accent } } })] }) },
+    footers: { default: new Footer({ children: [new Paragraph({ children: [new TextRun({ text: "© 2026 Steven Tanardi — 尤努斯願景團隊 | 機密提交文件", color: COLORS.subtleGray, size: 18 })], alignment: AlignmentType.CENTER, border: { top: { style: BorderStyle.SINGLE, size: 4, color: COLORS.accent } } })] }) },
+    children: buildCHContent(),
+  }],
+});
+
 Packer.toBuffer(doc).then((buffer) => {
   fs.writeFileSync("Deep_Research_Summary.docx", buffer);
   console.log("✅ Successfully generated: Deep_Research_Summary.docx");
+});
+
+Packer.toBuffer(docID).then((buffer) => {
+  fs.writeFileSync("Deep_Research_Summary_ID.docx", buffer);
+  console.log("✅ Successfully generated: Deep_Research_Summary_ID.docx");
+});
+
+Packer.toBuffer(docCH).then((buffer) => {
+  fs.writeFileSync("Deep_Research_Summary_CH.docx", buffer);
+  console.log("✅ Successfully generated: Deep_Research_Summary_CH.docx");
 });
