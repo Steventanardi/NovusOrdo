@@ -1,18 +1,20 @@
 # 🐛 6th Taiwan Yunus Innovation Award - Project Proposal (04)
 ## BSF Bio-Transformation: Converting Urban Food Waste into Premium Circular Protein
 
-[![Language - 中文繁體](https://img.shields.io/badge/Language%20-%20中文繁體-000000?style=for-the-badge&logo=google-translate&logoColor=white)](Proposal_CH.md) [![Language - Indonesia](https://img.shields.io/badge/Language%20-%20Indonesia-red?style=for-the-badge&logo=google-translate&logoColor=white)](Proposal_ID.md) [![Home - README](https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logo=home&logoColor=white)](../README.md)
+[<img src="https://img.shields.io/badge/Language%20-%20中文繁體-000000?style=for-the-badge&logo=google-translate&logoColor=white">](Proposal_CH.md) [<img src="https://img.shields.io/badge/Language%20-%20Indonesia-red?style=for-the-badge&logo=google-translate&logoColor=white">](Proposal_ID.md) [<img src="https://img.shields.io/badge/Home%20-%20README-000000?style=for-the-badge&logo=home&logoColor=white">](../README.md)
 
 | Team Name | Yunus Vision Team |
 | :--- | :--- |
 | **Project Name** | **BSF Bio-Loop: Night Market Food Waste & Protein Independence Initiative** |
 | **Lead Designer** | **Steven Tanardi** |
 | **Category** | Bio-Circular Social Enterprise |
+| **Status** | Research & Development Phase |
 
 ---
 
 ## 🚨 Policy Context: Taiwan's 2027 Full Pig-Feed Ban (African Swine Fever)
 
+> [!IMPORTANT]
 > The market opportunity for this project is directly created by a confirmed, major regulatory shift — confirmed by multiple official Taiwanese government sources in 2025–2026.
 
 In **October 2025**, Taiwan experienced an African Swine Fever (ASF) outbreak, traced directly to **unsterilized kitchen waste (廚餘)** fed to pigs on commercial farms. In response, the Executive Yuan enacted a phased national ban:
@@ -88,6 +90,7 @@ Shipping-container-sized BSF reactors placed **within 500 meters** of major nigh
 | Tipping Fee (from markets) | 700 tonnes | ~$30 USD | $21,000 USD |
 | **Total Revenue/Hub** | — | — | **~$141,000 USD** |
 
+> [!TIP]
 > **CAPEX per hub**: ~$120,000–$180,000 USD | **Payback period**: ~18–30 months
 
 ### Government Subsidy Leverage

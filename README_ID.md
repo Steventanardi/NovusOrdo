@@ -34,9 +34,18 @@ Pilih modul di bawah ini untuk menjelajahi riset mendalam, proposal taktis, dan 
 | Proyek 04 | Proyek 05 | Proyek 06 |
 | :---: | :---: | :---: |
 | **Bio-Loop BSF** | **Sistem Hidangan Sirkular** | **Dinding Bio-Oksigen** |
-| [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](04_BSF_Composting/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](05_Reusable_Utensil_Service/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](06_Algae_Oxygen_Wall/Proposal_ID.md) |
-| [<img src="https://img.shields.io/badge/Proposal%20-%20English-orange?style=for-the-badge&logo=googledocs&logoColor=white">](04_BSF_Composting/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20English-red?style=for-the-badge&logo=googledocs&logoColor=white">](05_Reusable_Utensil_Service/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20English-purple?style=for-the-badge&logo=googledocs&logoColor=white">](06_Algae_Oxygen_Wall/Proposal_EN.md) |
-| [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-orange?style=for-the-badge">](04_BSF_Composting/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-red?style=for-the-badge">](05_Reusable_Utensil_Service/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-purple?style=for-the-badge">](06_Algae_Oxygen_Wall/Proposal_CH.md) |
+| [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](04_BSF_Composting/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](05_ReLoop_Utensil/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](06_Algae_Oxygen_Wall/Proposal_ID.md) |
+| [<img src="https://img.shields.io/badge/Proposal%20-%20English-orange?style=for-the-badge&logo=googledocs&logoColor=white">](04_BSF_Composting/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20English-red?style=for-the-badge&logo=googledocs&logoColor=white">](05_ReLoop_Utensil/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20English-purple?style=for-the-badge&logo=googledocs&logoColor=white">](06_Algae_Oxygen_Wall/Proposal_EN.md) |
+| [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-orange?style=for-the-badge">](04_BSF_Composting/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-red?style=for-the-badge">](05_ReLoop_Utensil/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-purple?style=for-the-badge">](06_Algae_Oxygen_Wall/Proposal_CH.md) |
+
+<br>
+
+| Proyek 07 | Proyek 08 (Plus) | Proyek 09 (Plus) |
+| :---: | :---: | :---: |
+| **SmartDorm Energy** | **BrewToBloom** | **KinLoop Plus** |
+| [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](07_SmartDorm_Energy/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](YunusPlus/BrewToBloom/id/README.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](YunusPlus/KinLoop/id/README.md) |
+| [<img src="https://img.shields.io/badge/Proposal%20-%20English-cyan?style=for-the-badge&logo=googledocs&logoColor=white">](07_SmartDorm_Energy/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Initative%20-%20English-brown?style=for-the-badge&logo=googledocs&logoColor=white">](YunusPlus/BrewToBloom/en/README.md) | [<img src="https://img.shields.io/badge/Initative%20-%20English-teal?style=for-the-badge&logo=googledocs&logoColor=white">](YunusPlus/KinLoop/en/README.md) |
+| [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-cyan?style=for-the-badge">](07_SmartDorm_Energy/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-brown?style=for-the-badge">](YunusPlus/BrewToBloom/zh/README.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-teal?style=for-the-badge">](YunusPlus/KinLoop/zh/README.md) |
 
 </div>
 
@@ -69,6 +78,10 @@ Layanan berlangganan B2B untuk restoran guna menghilangkan plastik sekali pakai.
 ### 🧪 6. Dinding Bio-Oksigen (Bio-Reaktor)
 Bioreaktor vertikal dalam ruangan untuk apartemen kepadatan tinggi di Taipei. Menggunakan alga untuk memproduksi 10x lebih banyak oksigen daripada tanaman hias sambil menyaring PM2.5.
 - **Tujuan**: Bio-filtrasi udara urban yang terdesentralisasi.
+
+### ⚡ 7. WattWatch (Smart Dorm Energy)
+Model IoT + SaaS "Shared-Savings" untuk asrama universitas. Menggunakan dorongan perilaku untuk mengurangi pemborosan listrik kampus sebesar 15%.
+- **Tujuan**: Transisi energi perilaku dalam skala besar.
 
 ---
 

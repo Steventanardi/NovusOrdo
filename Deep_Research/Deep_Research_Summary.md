@@ -6,11 +6,34 @@
 
 ---
 
+## 📑 Table of Contents
+1. [📋 Executive Summary](#-executive-summary)
+2. [PART I: SMART TRASH SCANNER](#part-i-smart-trash-scanner-ai-powered-molecular-sorting-system)
+   - [1.1 The Problem: Taiwan's "Recycling Illusion"](#11-the-problem-taiwans-recycling-illusion)
+   - [1.2 Technology Deep Dive](#12-technology-deep-dive-multimodal-sensor-fusion)
+   - [1.3 Market Context & Competitive Intelligence](#13-market-context--competitive-intelligence)
+   - [1.4 Social Impact & Yunus Alignment](#14-social-impact--yunus-alignment)
+   - [1.5 Financial Architecture](#15-financial-architecture)
+3. [PART II: BSF BIO-LOOP](#part-ii-bsf-bio-loop--black-soldier-fly-circular-protein-system)
+   - [🚨 CRITICAL POLICY CATALYST: Taiwan's 2027 Pig-Feed Ban](#-critical-policy-catalyst-taiwans-2027-pig-feed-ban-african-swine-fever)
+   - [2.1 The Problem: Urban Organic Waste](#21-the-problem-urban-organic-waste--protein-import-dependence)
+   - [2.2 Science of BSF Bioconversion](#22-science-of-bsf-bioconversion--why-it-works)
+   - [2.3 Taiwan's BSF Ecosystem](#23-taiwans-bsf-ecosystem--whos-already-doing-it)
+   - [2.4 Market Intelligence](#24-market-intelligence--growth-projections)
+   - [2.5 The Bio-Modular Hub Design](#25-the-bio-modular-hub-design)
+4. [PART III: INTEGRATED SYSTEM — The Circular Synergy](#part-iii-integrated-system--the-circular-synergy)
+5. [PART IV: YUNUS COMPETITION STRATEGIC POSITIONING](#part-iv-yunus-competition-strategic-positioning)
+6. [PART V: RESEARCH CITATIONS & REFERENCES](#part-v-research-citations--references)
+7. [APPENDIX: QUICK-REFERENCE STATISTICS](#appendix-quick-reference-statistics)
+
+---
+
 ## 📋 Executive Summary
 
 This document synthesizes comprehensive academic and industry research across two flagship social enterprise proposals submitted for the **6th Taiwan Yunus Social Business Innovation Award**. Both projects address Taiwan's critical environmental gaps—the failure of "surface-level" recycling and the urban organic waste crisis—using frontier biotechnology and AI.
 
-> **⚠️ Critical Policy Discovery (2026)**: Taiwan's government has confirmed a **full ban on using food waste as pig feed effective January 1, 2027**, triggered by an October 2025 African Swine Fever (ASF) outbreak traced to unsterilized kitchen swill. This creates an **immediate vacuum of ~731 tonnes/day** of business food waste that previously went to pig farms and now urgently needs an alternative processing pathway. **BSF bioconversion is officially listed by Taiwan's Ministry of Environment as one of the four approved alternative pathways.** This make the BSF Bio-Loop proposal not just timely — it is a government-mandated necessity.
+> [!IMPORTANT]
+> **Critical Policy Discovery (2026)**: Taiwan's government has confirmed a **full ban on using food waste as pig feed effective January 1, 2027**, triggered by an October 2025 African Swine Fever (ASF) outbreak traced to unsterilized kitchen swill. This creates an **immediate vacuum of ~731 tonnes/day** of business food waste that previously went to pig farms and now urgently needs an alternative processing pathway. **BSF bioconversion is officially listed by Taiwan's Ministry of Environment as one of the four approved alternative pathways.** This makes the BSF Bio-Loop proposal not just timely — it is a government-mandated necessity.
 
 Collectively, the two projects form an integrated circular economy system: the **Trash Scanner** produces cleaner material streams, while the **BSF Bio-Loop** converts the redirected organic waste (formerly pig swill) into high-value protein and fertilizer.
 

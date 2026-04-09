@@ -34,9 +34,18 @@
 | 計畫 04 | 計畫 05 | 計畫 06 |
 | :---: | :---: | :---: |
 | **黑水虻生物循環** | **循環餐盤系統** | **藻類氧氣牆** |
-| [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-orange?style=for-the-badge">](04_BSF_Composting/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-red?style=for-the-badge">](05_Reusable_Utensil_Service/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-purple?style=for-the-badge">](06_Algae_Oxygen_Wall/Proposal_CH.md) |
-| [<img src="https://img.shields.io/badge/Proposal%20-%20English-orange?style=for-the-badge&logo=googledocs&logoColor=white">](04_BSF_Composting/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20English-red?style=for-the-badge&logo=googledocs&logoColor=white">](05_Reusable_Utensil_Service/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20English-purple?style=for-the-badge&logo=googledocs&logoColor=white">](06_Algae_Oxygen_Wall/Proposal_EN.md) |
-| [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](04_BSF_Composting/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](05_Reusable_Utensil_Service/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](06_Algae_Oxygen_Wall/Proposal_ID.md) |
+| [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-orange?style=for-the-badge">](04_BSF_Composting/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-red?style=for-the-badge">](05_ReLoop_Utensil/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-purple?style=for-the-badge">](06_Algae_Oxygen_Wall/Proposal_CH.md) |
+| [<img src="https://img.shields.io/badge/Proposal%20-%20English-orange?style=for-the-badge&logo=googledocs&logoColor=white">](04_BSF_Composting/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20English-red?style=for-the-badge&logo=googledocs&logoColor=white">](05_ReLoop_Utensil/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20English-purple?style=for-the-badge&logo=googledocs&logoColor=white">](06_Algae_Oxygen_Wall/Proposal_EN.md) |
+| [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](04_BSF_Composting/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](05_ReLoop_Utensil/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](06_Algae_Oxygen_Wall/Proposal_ID.md) |
+
+<br>
+
+| 計畫 07 | 計畫 08 (Plus) | 計畫 09 (Plus) |
+| :---: | :---: | :---: |
+| **宿舍節能管家** | **BrewToBloom** | **KinLoop Plus** |
+| [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-cyan?style=for-the-badge">](07_SmartDorm_Energy/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-brown?style=for-the-badge">](YunusPlus/BrewToBloom/zh/README.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-teal?style=for-the-badge">](YunusPlus/KinLoop/zh/README.md) |
+| [<img src="https://img.shields.io/badge/Proposal%20-%20English-cyan?style=for-the-badge&logo=googledocs&logoColor=white">](07_SmartDorm_Energy/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Initative%20-%20English-brown?style=for-the-badge&logo=googledocs&logoColor=white">](YunusPlus/BrewToBloom/en/README.md) | [<img src="https://img.shields.io/badge/Initative%20-%20English-teal?style=for-the-badge&logo=googledocs&logoColor=white">](YunusPlus/KinLoop/en/README.md) |
+| [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](07_SmartDorm_Energy/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](YunusPlus/BrewToBloom/id/README.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](YunusPlus/KinLoop/id/README.md) |
 
 </div>
 
@@ -69,6 +78,10 @@
 ### 🧪 6. 藻類氧氣牆 (生物反應器)
 為台北高密度公寓設計的室內垂直生物反應器。利用小球藻產生 10 倍於普通室內植物的氧氣，同時過濾城市中的 PM2.5。
 - **目標**：實現去中心化的城市生物空氣過濾。
+
+### ⚡ 7. WattWatch (宿舍節能管家)
+專為大學宿舍設計的「共享節能」IoT + SaaS 模式。透過行為引導減少校園 15% 的電力浪費。
+- **目標**：實現大規模的行為能源轉型。
 
 ---
 

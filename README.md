@@ -3,6 +3,9 @@
 
 ![Yunus Masterplan Banner](assets/yunus_banner.png)
 
+> [!NOTE]
+> This repository serves as the official digital twin of the **Yunus Vision 2026** masterplan. It contains all technical blueprints, financial models, and strategic research for a multi-layered urban circular economy.
+
 <div align="center">
 
 | [<img src="https://img.shields.io/badge/Language%20-%20English-0078D4?style=for-the-badge&logoColor=white">](#-strategic-portfolio) | [<img src="https://img.shields.io/badge/Language%20-%20中文繁體-0078D4?style=for-the-badge&logoColor=white">](README_CH.md) | [<img src="https://img.shields.io/badge/Language%20-%20Indonesian-red?style=for-the-badge&logoColor=white">](README_ID.md) |
@@ -13,6 +16,17 @@
 > **"Redefining Taiwan's Urban DNA through Biological and Mechanical Intelligence."**
 
 Welcome to **Yunus**, a strategic collection of social and environmental enterprises curated and engineered by **Steven Tanardi**. This project integrates circular economy principles, insect biotechnology, and molecular-AI into a unified masterplan for 21st-century urban resilience.
+
+---
+
+## 📊 Overall Portfolio Status
+
+| Metric | Achievement |
+| :--- | :--- |
+| **Active Projects** | 7 Main Pipelines + 2 Incubators |
+| **SDGs Covered** | SDG 2, 7, 8, 9, 11, 12, 13, 14, 15 |
+| **Markets Addressed** | Food Waste, Energy, Recycling, Logistics, PropTech |
+| **Research Depth** | ~50+ Citations including 2026 Policy Shifts |
 
 ---
 
@@ -34,9 +48,18 @@ Select a module below to explore deep research, tactical proposals, and the mate
 | Project 04 | Project 05 | Project 06 |
 | :---: | :---: | :---: |
 | **BSF Bio-Loop** | **The Circular Dish** | **Algae-Oxygen Wall** |
-| [<img src="https://img.shields.io/badge/Proposal%20-%20English-orange?style=for-the-badge&logo=googledocs&logoColor=white">](04_BSF_Composting/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20English-red?style=for-the-badge&logo=googledocs&logoColor=white">](05_Reusable_Utensil_Service/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20English-purple?style=for-the-badge&logo=googledocs&logoColor=white">](06_Algae_Oxygen_Wall/Proposal_EN.md) |
-| [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-orange?style=for-the-badge">](04_BSF_Composting/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-red?style=for-the-badge">](05_Reusable_Utensil_Service/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-purple?style=for-the-badge">](06_Algae_Oxygen_Wall/Proposal_CH.md) |
-| [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](04_BSF_Composting/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](05_Reusable_Utensil_Service/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](06_Algae_Oxygen_Wall/Proposal_ID.md) |
+| [<img src="https://img.shields.io/badge/Proposal%20-%20English-orange?style=for-the-badge&logo=googledocs&logoColor=white">](04_BSF_Composting/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20English-red?style=for-the-badge&logo=googledocs&logoColor=white">](05_ReLoop_Utensil/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20English-purple?style=for-the-badge&logo=googledocs&logoColor=white">](06_Algae_Oxygen_Wall/Proposal_EN.md) |
+| [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-orange?style=for-the-badge">](04_BSF_Composting/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-red?style=for-the-badge">](05_ReLoop_Utensil/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-purple?style=for-the-badge">](06_Algae_Oxygen_Wall/Proposal_CH.md) |
+| [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](04_BSF_Composting/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](05_ReLoop_Utensil/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](06_Algae_Oxygen_Wall/Proposal_ID.md) |
+
+<br>
+
+| Project 07 | Project 08 (Plus) | Project 09 (Plus) |
+| :---: | :---: | :---: |
+| **SmartDorm Energy** | **BrewToBloom** | **KinLoop Plus** |
+| [<img src="https://img.shields.io/badge/Proposal%20-%20English-cyan?style=for-the-badge&logo=googledocs&logoColor=white">](07_SmartDorm_Energy/Proposal_EN.md) | [<img src="https://img.shields.io/badge/Initative%20-%20English-brown?style=for-the-badge&logo=googledocs&logoColor=white">](YunusPlus/BrewToBloom/en/README.md) | [<img src="https://img.shields.io/badge/Initative%20-%20English-teal?style=for-the-badge&logo=googledocs&logoColor=white">](YunusPlus/KinLoop/en/README.md) |
+| [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-cyan?style=for-the-badge">](07_SmartDorm_Energy/Proposal_CH.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-brown?style=for-the-badge">](YunusPlus/BrewToBloom/zh/README.md) | [<img src="https://img.shields.io/badge/%E8%A8%88%E7%95%AB%20-%20%E4%B8%AD%E6%96%87-teal?style=for-the-badge">](YunusPlus/KinLoop/zh/README.md) |
+| [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](07_SmartDorm_Energy/Proposal_ID.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](YunusPlus/BrewToBloom/id/README.md) | [<img src="https://img.shields.io/badge/Proposal%20-%20Indonesia-red?style=for-the-badge&logoColor=white">](YunusPlus/KinLoop/id/README.md) |
 
 </div>
 
@@ -69,6 +92,10 @@ A B2B subscription service for restaurants to eliminate single-use plastics. Pro
 ### 🧪 6. Algae-Oxygen Vertical Wall (Bio-Reactor)
 Indoor vertical bioreactors for Taipei's high-density apartments. Uses *Chlorella* to produce 10x more oxygen than houseplants while scrubbing PM2.5.
 - **Goal**: Decentralized living urban bio-filtration.
+
+### ⚡ 7. WattWatch (Smart Dorm Energy)
+A Shared-Savings IoT + SaaS model for university dormitories. Uses behavioral nudges to reduce campus electricity waste by 15%.
+- **Goal**: Behavioral energy transition at scale.
 
 ---
 
