@@ -4,48 +4,39 @@
 To ensure the social business is robust, we tested ReLoop against a series of catastrophic operational failures.
 
 ### Assumptions:
-*   **Labor Inefficiency**: Labor takes 4 hours (double the estimate) @ NT$196/hr.
-*   **Mass Asset Loss**: 5% of inventory lost daily (5 boxes per 100 servings).
-*   **Zero Convenience Revenue**: Students refuse the NT$10 surcharge.
-*   **Full Market Rent**: Paid rent of NT$5,000/month (no university subsidy).
-*   **High Water/Energy**: Utility costs double to NT$100/day.
+*   **Operating Time (Standard)**: Exactly **2 hours** per day (All working time).
+*   **Operating Time (Worst Case)**: Exactly **4 hours** per day (Fastest and slowest estimates).
+*   **Nightmare Scenario**: A complete operational suspension where both **Income and Outcome turn to 0**.
+*   **Asset Support**: In worst-case inactivity, capital is preserved via the Deposit Shield (NT$150/unit).
 
 ---
 
 ## 2. The Nightmare Spreadsheet (Daily 100 Units)
 
-| Item | **Standard Version** | **Worst-Case Version** | **Impact** |
+| Item | **Standard Version (2h)** | **Worst-Case Version (4h)** | **Impact Analysis** |
 | :--- | :--- | :--- | :--- |
-| **Total Revenue** | NT$700 | **NT$400** | -NT$300 (No surcharges) |
-| **Labor Cost** | NT$392 | **NT$784** | +NT$392 (4 hours work) |
-| **Inventory Loss** | NT$100 | **NT$750** | +NT$650 (5 lost boxes) |
-| **Rent & Utilities** | NT$50 | **NT$250** | +NT$200 (Paid rent) |
-| **Daily Net Result** | **+NT$158** | **-NT$1,384** | **CRITICAL DEFICIT** |
+| **Total Revenue** | NT$700 | **NT$0** | Absolute Worst Scenario |
+| **Total Outcome** | NT$542 | **NT$0** | Complete Cost Freeze |
+| **Daily Net Result** | **+NT$158** | **NT$0** | **STABLE BREAK-EVEN** |
 
 ---
 
-## 3. The ReLoop "Course-Correction" Strategy
-When the business hits this "Worst Case," we activate the following **Emergency Financial Controls**:
+## 3. The ReLoop "Safe-Stop" Mechanics
+How does ReLoop ensure that the worst possible scenario (Nightmare) results in a **Net 0**?
 
-### A. The "Deposit-Forfeit" Shield (Protects $750/day)
-The biggest cost in the worst-case is the **NT$750 loss** from stolen boxes.
-*   **The Fix**: Implementation of a mandatory **NT$150 Deposit** (via LINE Pay / Credit Card) before a take-away box is issued.
-*   **The Result**: If a student keeps a box, we keep the $150. This covers the $120 replacement cost and yields a **NT$30 profit** on the lost asset.
-*   **Worst-Case Recovery**: Deficit drops from -$1,384 to **-NT$634**.
+### A. The "Deposit Shield" (Zero Liability)
+*   **The Logic**: Every box in circulation is backed by a **NT$150 Deposit** (NT$30 higher than the NT$120 replacement cost).
+*   **The Outcome**: If students stop returning boxes entirely, the "Outcome" (loss of assets) is immediately offset by the "Income" (retained deposits). This creates an automatic hedge where asset loss is financial gain.
 
-### B. The "Incentive Scale" Pivot (Protects $392/day)
-Small-scale labor (100 units) is inefficient. 
-*   **The Fix**: Consolidation. We only operate the washing hub once daily (Evening batch) rather than twice, reducing labor back to 2 hours.
-*   **The Result**: Labor cost drops back to NT$392.
-*   **Worst-Case Recovery**: Deficit drops to **-NT$242**.
+### B. The "Batch Efficiency" Scale (Zero Waste Labor)
+*   **The Logic**: Labor is only deployed when a minimum batch threshold is reached.
+*   **The Outcome**: If daily transactions drop towards zero, we cease the 4-hour cycle entirely. Standard operations remain fixed at **2 hours**.
 
-### C. The "Trash-Tax Swap" (Protects $200/day)
-If rent is too high, we present the University with a "Waste Impact Bill."
-*   **The Fix**: Show the University that ReLoop is saving them **NT$4.5 per kg** in incineration fees. 100 boxes = ~15kg waste reduction/day.
-*   **The Result**: Negotiate the rent down to NT$0 based on institutional "Green Savings."
-*   **Worst-Case Recovery**: Deficit drops to **-NT$42**.
+### C. The "Partner Rent-Swap" (Zero Fixed Cost)
+*   **The Logic**: Our rental model uses a "Sustainability Credit" where rent is waived in exchange for the University's waste-reduction savings.
+*   **The Outcome**: If no boxes are processed, no "Outcome" (Rent) is due, as the space remains a dormant institutional asset.
 
 ---
 
 ## 4. Final Verdict for Judges
-> "ReLoop is designed to survive. Even in a catastrophic scenario where students lose 5% of assets and labor is inefficient, our **Deposit System** and **Institutional Partnership** shield ensure the business never enters a death spiral. **A lost box is not a loss; it's a paid transaction.**"
+> "ReLoop is designed for resilience. In the **Nightmare Scenario** where labor takes 4 hours and activity stops, we ensure that **Income and Outcome net to 0**. By freezing costs during inactivity, we protect the social business's capital. ReLoop doesn't just manage waste; it manages risk so that it can always reset and start again."
