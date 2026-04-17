@@ -22,6 +22,7 @@
 2.  **"Transformasi Risiko" Finansial**: Sebagian besar bisnis ramah lingkungan gagal karena biaya kehilangan aset yang tinggi. **Novus Ordo Patera** secara unik mengubah "kewajiban" ini menjadi "aset" dengan mencocokkan harga deposit kami di atas biaya penggantian. Kami telah merancang bisnis ini agar tetap menguntungkan bahkan dalam skenario terburuk dari kehilangan aset massal.
 3.  **Logistik Batch Berbasis RFID**: Setiap wadah memiliki identitas serial. Ini memungkinkan kami untuk menerapkan sanitasi "First-In, First-Out" (FIFO), memastikan setiap kotak tetap dalam standar higienitas ISO-22000 melalui riwayat pelacakan dari setiap siklus pencucian.
 4.  **Skala "Mengalahkan Pasar"**: Kami adalah satu-satunya proyek yang bertujuan untuk menjadi **lebih murah daripada plastik**. Dengan mengoptimalkan tenaga kerja melalui sesi "Flash Washing" intensitas tinggi selama 2 jam, kami menurunkan biaya per makanan di bawah status quo barang sekali pakai, menghilangkan "Green Premium" yang biasanya menghambat skalabilitas bisnis sosial.
+5.  **Kemitraan Strategis CVS (7-Eleven/FamilyMart)**: Untuk mengatasi hambatan logistik besar di toko ritel, kami menggunakan model **"Collection Hub"**. Dengan menempatkan Smart Return Bin di gerai CVS, kami memanfaatkan kepadatan lokasi mereka untuk memudahkan konsumen mengembalikan wadah, tanpa mengganggu rantai pasok makanan internal mereka yang sangat kompleks.
 
 ---
 

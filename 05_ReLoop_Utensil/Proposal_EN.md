@@ -162,9 +162,12 @@ This ESG data is exportable for CSR reports, directly serving the growing demand
 ### Strategic Roadmap
 
 - **Year 1 (Pilot)**: 50 partner stores in Taipei (Zhongshan + Da'an District). 5,000 containers. 1 wash hub. Prove return rate ≥85%.
-- **Year 2**: Expand to Taichung and Hsinchu. Launch corporate ESG package. 500 stores, 50,000 containers. 5 wash hubs.
-- **Year 3**: B2G contract with Ministry of Education for school cafeteria network (4,000+ schools nationwide).
-- **Year 5**: 3,000 partner stores across Greater Taiwan. 300,000 containers in circulation. **500 million single-use containers eliminated annually.**
+- **Year 2 (Enterprise Integration)**: Launch pilot with a major CVS chain (7-Eleven or FamilyMart) as "Smart Return Hubs." Target 100 CVS locations in Taipei.
+- **Year 3**: Expand to Taichung and Hsinchu. Launch corporate ESG package. 500 stores, 50,000 containers. 5 wash hubs.
+- **Year 5**: B2G contract with Ministry of Education and nation-wide CVS network integration. 3,000 partner stores. 300,000 containers. **500 million single-use containers eliminated annually.**
+
+### Strategic CVS Partnership Model
+To bypass the "CVS Wall" of high production inertia, ReLoop employs a **Hub-and-Spoke model** where 7-Eleven and FamilyMart serve as the primary **Collection Spokes**. This avoids immediate factory-side changes while utilizing their massive store density to maximize consumer return convenience.
 
 ### Competitive Moat
 - **Network effect**: The more return stations, the higher return rates → lower cost per use → more restaurants join → more stations.
